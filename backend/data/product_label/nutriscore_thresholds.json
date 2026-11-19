@@ -1,0 +1,392 @@
+{
+  "_source": {
+    "title": "Conditions of Use of the trademark « Nutri-Score » — EXHIBIT 1-B: Specifications of the Updated Algorithm",
+    "publisher": "Santé publique France",
+    "version": "Version dated 26 June 2024, approved by Santé publique France (Updated Algorithm: foods revised 2022, beverages revised 2023)",
+    "pages": "28-32 (Tables 5-10, sections 1-a, 1-b, 2-a, 2-b, 2-c)",
+    "official_url": "https://www.santepubliquefrance.fr/content/download/150258/file/24042023CoU_EN.pdf",
+    "copy_used": "https://www.blv.admin.ch/dam/fr/sd-web/HGZNnGi-OQON/benutzerreglement-nutri-score-en.pdf (official copy hosted by the Swiss Federal Food Safety and Veterinary Office; the santepubliquefrance.fr download aborted)",
+    "copy_sha256": "c8146b9fad26ede0526ebe95a36501b2c97961188657ff65d9f98d49fb73de93",
+    "transcribed": "2026-11-12, by hand from the PDF text of Exhibit 1-B",
+    "not_in_this_document": "Which products count as cheese, red meat, animal/vegetable fats-nuts-seeds, beverages, waters, fruits/vegetables/legumes and non-nutritive sweeteners is defined in the separate Nutri-Score 'Questions & Answers' document (not used here); the app approximates categories (see product category rules in nutriscore.py)."
+  },
+  "_interpretation": {
+    "thresholds": "Each 'points' list gives the threshold for 1, 2, 3, ... points. Unless stated otherwise points = number of thresholds STRICTLY exceeded (the tables read '0: <= x or < x', 'n: > x').",
+    "boundary_note": "Table 5 lists energy 0 points as '< 335' and 1 point as '> 335' (likewise saturates '< 1' / '> 1', FVL '< 40' / '> 40'); a value exactly on the threshold is given the lower score here.",
+    "fats_ratio_rule": "Table 7 'Saturates/Lipids' is a percentage with '<' bounds (0: < 10, 1: < 16, ... 9: < 64, 10: >= 64), so points = number of thresholds the ratio is GREATER THAN OR EQUAL TO.",
+    "salt": "Tables use salt (g/100 g). When only sodium is printed: salt = sodium x 2.5 (Regulation (EU) No 1169/2011, Annex I, definition 11 — not part of Exhibit 1-B).",
+    "energy": "Tables use kJ. When only kcal is printed: kJ = kcal x 4.184 (not part of Exhibit 1-B)."
+  },
+  "general": {
+    "table": "Tables 5 and 6, section 1-a",
+    "negative": {
+      "energy_kj": [
+        335,
+        670,
+        1005,
+        1340,
+        1675,
+        2010,
+        2345,
+        2680,
+        3015,
+        3350
+      ],
+      "saturated_fat_g": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sugars_g": [
+        3.4,
+        6.8,
+        10,
+        14,
+        17,
+        20,
+        24,
+        27,
+        31,
+        34,
+        37,
+        41,
+        44,
+        48,
+        51
+      ],
+      "salt_g": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ]
+    },
+    "positive": {
+      "protein_g": [
+        2.4,
+        4.8,
+        7.2,
+        9.6,
+        12,
+        14,
+        17
+      ],
+      "fibre_g": [
+        3.0,
+        4.1,
+        5.2,
+        6.3,
+        7.4
+      ],
+      "fvl_percent": {
+        "thresholds": [
+          40,
+          60,
+          80
+        ],
+        "points": [
+          1,
+          2,
+          5
+        ]
+      }
+    },
+    "protein_rule": {
+      "exclude_protein_when_n_at_least": 11,
+      "except": [
+        "cheese"
+      ],
+      "text": "If N < 11 or the product is cheese: score = N - P. If N >= 11: score = N - fibre points - FVL points."
+    },
+    "red_meat_protein_max_points": 2,
+    "grades": [
+      {
+        "max": 0,
+        "grade": "A"
+      },
+      {
+        "max": 2,
+        "grade": "B"
+      },
+      {
+        "max": 10,
+        "grade": "C"
+      },
+      {
+        "max": 18,
+        "grade": "D"
+      },
+      {
+        "max": null,
+        "grade": "E"
+      }
+    ]
+  },
+  "fats_nuts_seeds": {
+    "table": "Tables 7 and 8, sections 1-b and 2-b",
+    "negative": {
+      "energy_from_saturates_kj": [
+        120,
+        240,
+        360,
+        480,
+        600,
+        720,
+        840,
+        960,
+        1080,
+        1200
+      ],
+      "energy_from_saturates_formula": "saturates (g/100 g) x 37",
+      "sugars_g": [
+        3.4,
+        6.8,
+        10,
+        14,
+        17,
+        20,
+        24,
+        27,
+        31,
+        34,
+        37,
+        41,
+        44,
+        48,
+        51
+      ],
+      "saturates_to_lipids_percent": [
+        10,
+        16,
+        22,
+        28,
+        34,
+        40,
+        46,
+        52,
+        58,
+        64
+      ],
+      "salt_g": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ]
+    },
+    "positive": {
+      "protein_g": [
+        2.4,
+        4.8,
+        7.2,
+        9.6,
+        12,
+        14,
+        17
+      ],
+      "fibre_g": [
+        3.0,
+        4.1,
+        5.2,
+        6.3,
+        7.4
+      ],
+      "fvl_percent": {
+        "thresholds": [
+          40,
+          60,
+          80
+        ],
+        "points": [
+          1,
+          2,
+          5
+        ]
+      }
+    },
+    "protein_rule": {
+      "exclude_protein_when_n_at_least": 7,
+      "except": [],
+      "text": "If N < 7: score = N - P. If N >= 7: score = N - fibre points - FVL points."
+    },
+    "grades": [
+      {
+        "max": -6,
+        "grade": "A"
+      },
+      {
+        "max": 2,
+        "grade": "B"
+      },
+      {
+        "max": 10,
+        "grade": "C"
+      },
+      {
+        "max": 18,
+        "grade": "D"
+      },
+      {
+        "max": null,
+        "grade": "E"
+      }
+    ]
+  },
+  "beverages": {
+    "table": "Tables 9 and 10, sections 1-b and 2-c (per 100 mL)",
+    "negative": {
+      "energy_kj": [
+        30,
+        90,
+        150,
+        210,
+        240,
+        270,
+        300,
+        330,
+        360,
+        390
+      ],
+      "sugars_g": [
+        0.5,
+        2,
+        3.5,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "saturated_fat_g": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "salt_g": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0
+      ],
+      "non_nutritive_sweeteners_points": 4
+    },
+    "positive": {
+      "protein_g": [
+        1.2,
+        1.5,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        3.0
+      ],
+      "fibre_g": [
+        3,
+        4.1,
+        5.2,
+        6.3,
+        7.4
+      ],
+      "fvl_percent": {
+        "thresholds": [
+          40,
+          60,
+          80
+        ],
+        "points": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    "protein_rule": {
+      "exclude_protein_when_n_at_least": null,
+      "except": [],
+      "text": "Score = N - P (protein always counted)."
+    },
+    "waters_grade": "A",
+    "grades": [
+      {
+        "max": 2,
+        "grade": "B"
+      },
+      {
+        "max": 6,
+        "grade": "C"
+      },
+      {
+        "max": 9,
+        "grade": "D"
+      },
+      {
+        "max": null,
+        "grade": "E"
+      }
+    ]
+  }
+}

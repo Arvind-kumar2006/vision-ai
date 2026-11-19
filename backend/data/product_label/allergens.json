@@ -1,0 +1,349 @@
+{
+ "_source": "Project rule set (Product Label Interpreter spec, 2026-11-12). Deterministic keyword rules with English and common Indian terms. Matches whole words/phrases, case-insensitive. This is a screening aid, NOT a substitute for the printed allergen declaration.",
+ "_matching": {
+  "keywords": "whole-word / whole-phrase match in the ingredients text, the 'contains' statement and the 'may contain' statement",
+  "exclude_phrases": "if a keyword only occurs inside one of these phrases it does not count (e.g. 'peanut butter' is not milk)",
+  "may_contain": "keywords found in the 'may contain' statement, or after a may-contain marker inside the ingredients text, go to may_contain instead of contains",
+  "negation": "a keyword directly preceded by a negation marker ('free from milk', 'no added egg', 'non-dairy') or written as '<keyword>-free' / '<keyword> free' does not count"
+ },
+ "allergens": {
+  "milk": {
+   "label": "Milk",
+   "keywords": [
+    "milk",
+    "milk solids",
+    "milk powder",
+    "skimmed milk",
+    "skimmed milk powder",
+    "whole milk powder",
+    "whey",
+    "whey powder",
+    "whey protein",
+    "casein",
+    "caseinate",
+    "sodium caseinate",
+    "lactose",
+    "butter",
+    "butter oil",
+    "ghee",
+    "cream",
+    "cheese",
+    "paneer",
+    "khoya",
+    "khoa",
+    "curd",
+    "yoghurt",
+    "yogurt",
+    "dahi",
+    "milk fat",
+    "dairy"
+   ],
+   "exclude_phrases": [
+    "coconut milk",
+    "coconut milk powder",
+    "almond milk",
+    "soy milk",
+    "soya milk",
+    "oat milk",
+    "rice milk",
+    "peanut butter",
+    "cocoa butter",
+    "shea butter",
+    "nut butter",
+    "kokum butter",
+    "cream of tartar",
+    "coconut cream",
+    "dairy free",
+    "dairy-free",
+    "non-dairy",
+    "non dairy"
+   ]
+  },
+  "wheat_gluten": {
+   "label": "Wheat / gluten",
+   "keywords": [
+    "wheat",
+    "wheat flour",
+    "whole wheat",
+    "maida",
+    "atta",
+    "sooji",
+    "suji",
+    "semolina",
+    "rava",
+    "gluten",
+    "wheat gluten",
+    "barley",
+    "barley malt",
+    "malt extract",
+    "rye",
+    "oats",
+    "oat",
+    "oat flour",
+    "durum"
+   ],
+   "exclude_phrases": [
+    "gluten free",
+    "gluten-free",
+    "buckwheat"
+   ],
+   "notes": {
+    "oats": "Oats are often cross-contaminated with wheat; listed as a possible gluten source.",
+    "oat": "Oats are often cross-contaminated with wheat; listed as a possible gluten source.",
+    "oat flour": "Oats are often cross-contaminated with wheat; listed as a possible gluten source."
+   }
+  },
+  "soy": {
+   "label": "Soy",
+   "keywords": [
+    "soy",
+    "soya",
+    "soybean",
+    "soybeans",
+    "soya bean",
+    "soya beans",
+    "soy lecithin",
+    "soya lecithin",
+    "soy protein",
+    "soya protein",
+    "soy sauce",
+    "tofu"
+   ],
+   "patterns": [
+    "lecithin\\s*\\(\\s*(?:from\\s+)?soya?\\b[^)]*\\)",
+    "(?:ins|e)\\s*-?\\s*322\\s*\\(\\s*(?:from\\s+)?soya?\\b[^)]*\\)",
+    "soya?\\s*(?:-|\\s)?\\s*(?:ins|e)\\s*-?\\s*322"
+   ],
+   "exclude_phrases": [
+    "soy free",
+    "soy-free"
+   ],
+   "notes": {
+    "lecithin": "Lecithin / INS 322 counts as soy only when the label says it comes from soy."
+   }
+  },
+  "peanut": {
+   "label": "Peanut",
+   "keywords": [
+    "peanut",
+    "peanuts",
+    "groundnut",
+    "groundnuts",
+    "ground nut",
+    "ground nuts",
+    "moongphali",
+    "mungfali",
+    "peanut butter",
+    "peanut oil",
+    "groundnut oil",
+    "arachis oil"
+   ],
+   "exclude_phrases": [
+    "peanut free",
+    "peanut-free"
+   ]
+  },
+  "tree_nuts": {
+   "label": "Tree nuts",
+   "keywords": [
+    "almond",
+    "almonds",
+    "badam",
+    "cashew",
+    "cashews",
+    "cashew nut",
+    "kaju",
+    "pistachio",
+    "pistachios",
+    "pista",
+    "walnut",
+    "walnuts",
+    "akhrot",
+    "hazelnut",
+    "hazelnuts",
+    "pecan",
+    "macadamia",
+    "brazil nut",
+    "tree nuts",
+    "nuts",
+    "nut"
+   ],
+   "exclude_phrases": [
+    "nutmeg",
+    "coconut",
+    "peanut",
+    "peanuts",
+    "groundnut",
+    "groundnuts",
+    "ground nut",
+    "ground nuts",
+    "doughnut",
+    "butternut",
+    "nut free",
+    "nut-free",
+    "nuts free"
+   ],
+   "notes": {
+    "nuts": "A generic 'nuts' is treated as tree nuts; it may also mean peanuts.",
+    "nut": "A generic 'nut' is treated as tree nuts; it may also mean peanuts."
+   }
+  },
+  "sesame": {
+   "label": "Sesame",
+   "keywords": [
+    "sesame",
+    "sesame seeds",
+    "sesame oil",
+    "til",
+    "til seeds",
+    "til oil",
+    "gingelly",
+    "gingelly oil",
+    "tahini"
+   ],
+   "exclude_phrases": [
+    "sesame free",
+    "sesame-free"
+   ]
+  },
+  "egg": {
+   "label": "Egg",
+   "keywords": [
+    "egg",
+    "eggs",
+    "egg powder",
+    "egg white",
+    "egg yolk",
+    "whole egg",
+    "albumin",
+    "albumen",
+    "egg albumin"
+   ],
+   "exclude_phrases": [
+    "eggless",
+    "egg free",
+    "egg-free",
+    "eggplant"
+   ]
+  },
+  "fish": {
+   "label": "Fish",
+   "keywords": [
+    "fish",
+    "fish sauce",
+    "fish oil",
+    "fish extract",
+    "anchovy",
+    "anchovies",
+    "tuna",
+    "salmon",
+    "sardine",
+    "sardines",
+    "mackerel"
+   ],
+   "exclude_phrases": [
+    "shellfish"
+   ]
+  },
+  "crustaceans": {
+   "label": "Crustaceans (shellfish)",
+   "keywords": [
+    "crustacean",
+    "crustaceans",
+    "shellfish",
+    "prawn",
+    "prawns",
+    "shrimp",
+    "shrimps",
+    "crab",
+    "lobster"
+   ],
+   "exclude_phrases": []
+  },
+  "mustard": {
+   "label": "Mustard",
+   "keywords": [
+    "mustard",
+    "mustard seeds",
+    "mustard oil",
+    "mustard powder",
+    "rai",
+    "sarson",
+    "sarson oil"
+   ],
+   "exclude_phrases": [
+    "mustard free",
+    "mustard-free"
+   ]
+  },
+  "sulphites": {
+   "label": "Sulphites",
+   "keywords": [
+    "sulphite",
+    "sulphites",
+    "sulfite",
+    "sulfites",
+    "sulphur dioxide",
+    "sulfur dioxide",
+    "sodium metabisulphite",
+    "sodium metabisulfite",
+    "potassium metabisulphite",
+    "potassium metabisulfite",
+    "metabisulphite",
+    "metabisulfite",
+    "sodium sulphite",
+    "sodium sulfite",
+    "sodium bisulphite",
+    "sodium bisulfite",
+    "potassium bisulphite",
+    "potassium bisulfite"
+   ],
+   "patterns": [
+    "(?:ins|e)\\s*-?\\s*22[0-8](?![0-9])",
+    "(?:preservatives?|antioxidants?|class\\s*ii\\s*preservatives?)\\s*[:(]?\\s*\\(?\\s*(?:ins\\s*)?22[0-8](?![0-9])"
+   ],
+   "pattern_keyword": "sulphite",
+   "exclude_phrases": [
+    "sulphite free",
+    "sulphite-free",
+    "sulfite free",
+    "sulfite-free"
+   ],
+   "notes": {
+    "sulphite": "FSSAI requires sulphites to be declared only at 10 mg/kg (as sulphur dioxide) or more; an ingredient list can't show the amount, so a listed sulphite (INS 220-228) means 'present', not 'above the threshold'."
+   },
+   "source": {
+    "rule": "FSS (Labelling and Display) Regulations, 2020, clause 5(14)(viii): sulphite to be declared when present at 10 mg/kg or more",
+    "verified_from": "FSSAI, 'Frequently Asked Questions (FAQs) on FSS (Labelling & Display) Regulations, 2020', Q23",
+    "url": "https://fssai.gov.in/upload/uploadfiles/files/FAQ_Labelling_Display_23_06_2022.pdf",
+    "sha256": "b8548c58e9e90c2304956d8f40c71bba95fad900cdf04cfe9cc2cec5dccc1576",
+    "checked": "2026-11-12",
+    "caveat": "The full regulation text was not available here; the FAQ (official FSSAI) confirms clause 5(14)(viii) and the 10 mg/kg threshold."
+   }
+  }
+ },
+ "may_contain_markers": [
+  "may contain",
+  "may also contain",
+  "may contain traces of",
+  "traces of",
+  "may have traces",
+  "manufactured in a facility",
+  "processed in a facility",
+  "manufactured in a factory",
+  "produced in a factory",
+  "same facility",
+  "shared equipment",
+  "same line"
+ ],
+ "negation_markers": [
+  "free from",
+  "free of",
+  "no added",
+  "does not contain",
+  "doesn't contain",
+  "without",
+  "non",
+  "no"
+ ]
+}
