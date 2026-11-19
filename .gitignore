@@ -1,0 +1,49 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Model weights (large; see backend/README.md to recreate)
+backend/weights/ocr/
+backend/weights/*.pth
+backend/weights/*.pth.tar
+*.pth
+
+# Generated outputs
+backend/experiments/results/
+*.log
+
+# Local backups and private notes
+archive/
+project_review/
+
+# Medicine index cache (rebuilt from the CSV) and labelled eval prescriptions (patient data)
+backend/data/cache/
+backend/data/eval/prescriptions/*
+!backend/data/eval/prescriptions/README.md
+
+# Product label: labelled eval photos
+backend/data/eval/product_labels/*
+!backend/data/eval/product_labels/README.md
+
+# 250k Medicines Usage, Side Effects and Substitutes (CC BY-SA 4.0): raw download, 89 MB, not committed.
+# The small derived lookup data/medicines/uses_by_ingredient.json IS committed (CC BY-SA 4.0).
+backend/data/medicines/250k_raw/
