@@ -1,0 +1,5618 @@
+{
+ "_source": {
+  "dataset": "Open Food Facts additives taxonomy (taxonomies/additives.txt)",
+  "repository": "https://github.com/openfoodfacts/openfoodfacts-server",
+  "commit": "0e703e0f4ee7633c5b5b8754fa938c99d31364f3",
+  "file_url": "https://raw.githubusercontent.com/openfoodfacts/openfoodfacts-server/0e703e0f4ee7633c5b5b8754fa938c99d31364f3/taxonomies/additives.txt",
+  "file_sha256": "049ba5e1bfe9bbaae9cef339b2cc71ea2cbf6c1df12e2ed8af6f4da831de4b18",
+  "commit_date": "2026-11-09T13:02:22Z",
+  "extracted": "2026-11-12: entries with an E-number; English name (first synonym) and additives_classes only",
+  "licence": "Open Food Facts data is published under the Open Database License (ODbL), contents under DbCL (https://world.openfoodfacts.org/data). The taxonomy file itself lives in the openfoodfacts-server repository, whose code licence is AGPL-3.0; its data licence is not stated separately in the repository. Attribution: 'Contains data from Open Food Facts, available under the Open Database License'.",
+  "ins_note": "INS numbers (used on Indian labels) are taken as the E-number digits (E322 -> INS 322); INS and E numbering coincide for these additives."
+ },
+ "_policy": "Category (functional class) only. No health claims are derived from this file.",
+ "non_nutritive_sweeteners": {
+  "approximate": true,
+  "codes": [
+   "E950",
+   "E951",
+   "E952",
+   "E954",
+   "E955",
+   "E956",
+   "E957",
+   "E958",
+   "E959",
+   "E960",
+   "E960a",
+   "E960b",
+   "E960c",
+   "E960d",
+   "E961",
+   "E962",
+   "E969"
+  ],
+  "definition": "Additives in the taxonomy's 'sweetener' class EXCEPT polyols/bulk sweeteners (sorbitol E420, mannitol E421, isomalt E953, polyglycitol syrup E964, maltitol E965, lactitol E966, xylitol E967, erythritol E968; polyols as listed in FSSAI Labelling FAQ Q28) and tagatose (E963, a nutritive sugar).",
+  "caveat": "The official Nutri-Score list of non-nutritive sweeteners is in the Nutri-Score Questions & Answers document, which was not available; this definition is an approximation."
+ },
+ "additives": {
+  "E100": {
+   "code": "E100",
+   "ins": "100",
+   "name": "Curcumin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E100(i)": {
+   "code": "E100(i)",
+   "ins": "100(i)",
+   "name": "E100(i)",
+   "classes": []
+  },
+  "E100(ii)": {
+   "code": "E100(ii)",
+   "ins": "100(ii)",
+   "name": "E100(ii)",
+   "classes": []
+  },
+  "E106": {
+   "code": "E106",
+   "ins": "106",
+   "name": "flavin mononucleotide",
+   "classes": []
+  },
+  "E101": {
+   "code": "E101",
+   "ins": "101",
+   "name": "Riboflavins",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E101(i)": {
+   "code": "E101(i)",
+   "ins": "101(i)",
+   "name": "Riboflavin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E101(ii)": {
+   "code": "E101(ii)",
+   "ins": "101(ii)",
+   "name": "Riboflavin-5′-phosphate",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E101(iii)": {
+   "code": "E101(iii)",
+   "ins": "101(iii)",
+   "name": "Riboflavin from Bacillus subtilis",
+   "classes": []
+  },
+  "E101(iv)": {
+   "code": "E101(iv)",
+   "ins": "101(iv)",
+   "name": "Riboflavin from Ashbya gossypii",
+   "classes": []
+  },
+  "E101a": {
+   "code": "E101a",
+   "ins": "101a",
+   "name": "E101a food additive",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E102": {
+   "code": "E102",
+   "ins": "102",
+   "name": "Tartrazine",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E103": {
+   "code": "E103",
+   "ins": "103",
+   "name": "Alkannin",
+   "classes": []
+  },
+  "E104": {
+   "code": "E104",
+   "ins": "104",
+   "name": "Quinoline yellow",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E105": {
+   "code": "E105",
+   "ins": "105",
+   "name": "Fast Yellow AB",
+   "classes": []
+  },
+  "E107": {
+   "code": "E107",
+   "ins": "107",
+   "name": "Yellow 2G",
+   "classes": []
+  },
+  "E110": {
+   "code": "E110",
+   "ins": "110",
+   "name": "Sunset yellow FCF",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E111": {
+   "code": "E111",
+   "ins": "111",
+   "name": "Orange GGN",
+   "classes": []
+  },
+  "E120": {
+   "code": "E120",
+   "ins": "120",
+   "name": "Cochineal",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E121": {
+   "code": "E121",
+   "ins": "121",
+   "name": "Citrus Red 2",
+   "classes": []
+  },
+  "E122": {
+   "code": "E122",
+   "ins": "122",
+   "name": "Azorubine",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E123": {
+   "code": "E123",
+   "ins": "123",
+   "name": "Amaranth",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E124": {
+   "code": "E124",
+   "ins": "124",
+   "name": "Ponceau 4r",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E125": {
+   "code": "E125",
+   "ins": "125",
+   "name": "Scarlet GN",
+   "classes": []
+  },
+  "E126": {
+   "code": "E126",
+   "ins": "126",
+   "name": "Ponceau 6R",
+   "classes": []
+  },
+  "E127": {
+   "code": "E127",
+   "ins": "127",
+   "name": "Erythrosine",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E128": {
+   "code": "E128",
+   "ins": "128",
+   "name": "Red 2G",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E129": {
+   "code": "E129",
+   "ins": "129",
+   "name": "Allura red",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E130": {
+   "code": "E130",
+   "ins": "130",
+   "name": "Indanthrene blue RS",
+   "classes": []
+  },
+  "E131": {
+   "code": "E131",
+   "ins": "131",
+   "name": "Patent blue v",
+   "classes": []
+  },
+  "E132": {
+   "code": "E132",
+   "ins": "132",
+   "name": "Indigotine",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E133": {
+   "code": "E133",
+   "ins": "133",
+   "name": "Brilliant blue FCF",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E140": {
+   "code": "E140",
+   "ins": "140",
+   "name": "Chlorophylls and Chlorophyllins",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E140(i)": {
+   "code": "E140(i)",
+   "ins": "140(i)",
+   "name": "Chlorophylls",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E140(ii)": {
+   "code": "E140(ii)",
+   "ins": "140(ii)",
+   "name": "Chlorophyllins",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E141": {
+   "code": "E141",
+   "ins": "141",
+   "name": "Copper complexes of chlorophylls and chlorophyllins",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E141(i)": {
+   "code": "E141(i)",
+   "ins": "141(i)",
+   "name": "Copper complexes of chlorophylls",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E141(ii)": {
+   "code": "E141(ii)",
+   "ins": "141(ii)",
+   "name": "Copper complexes of chlorophyllins",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E142": {
+   "code": "E142",
+   "ins": "142",
+   "name": "Green s",
+   "classes": []
+  },
+  "E143": {
+   "code": "E143",
+   "ins": "143",
+   "name": "Fast Green FCF",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E150": {
+   "code": "E150",
+   "ins": "150",
+   "name": "Caramel",
+   "classes": []
+  },
+  "E150a": {
+   "code": "E150a",
+   "ins": "150a",
+   "name": "Plain caramel",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E150b": {
+   "code": "E150b",
+   "ins": "150b",
+   "name": "Caustic sulphite caramel",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E150c": {
+   "code": "E150c",
+   "ins": "150c",
+   "name": "Ammonia caramel",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E150d": {
+   "code": "E150d",
+   "ins": "150d",
+   "name": "Sulphite ammonia caramel",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E151": {
+   "code": "E151",
+   "ins": "151",
+   "name": "Brilliant black bn",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E152": {
+   "code": "E152",
+   "ins": "152",
+   "name": "Black 7984",
+   "classes": []
+  },
+  "E153": {
+   "code": "E153",
+   "ins": "153",
+   "name": "Vegetable carbon",
+   "classes": []
+  },
+  "E154": {
+   "code": "E154",
+   "ins": "154",
+   "name": "Brown FK",
+   "classes": []
+  },
+  "E155": {
+   "code": "E155",
+   "ins": "155",
+   "name": "Brown ht",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E15x": {
+   "code": "E15x",
+   "ins": "15x",
+   "name": "E15x food additive",
+   "classes": []
+  },
+  "E160": {
+   "code": "E160",
+   "ins": "160",
+   "name": "Carotenoids",
+   "classes": []
+  },
+  "E160a": {
+   "code": "E160a",
+   "ins": "160a",
+   "name": "carotene",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160a(i)": {
+   "code": "E160a(i)",
+   "ins": "160a(i)",
+   "name": "Beta-carotene",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160a(ii)": {
+   "code": "E160a(ii)",
+   "ins": "160a(ii)",
+   "name": "Plant carotenes",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160a(iii)": {
+   "code": "E160a(iii)",
+   "ins": "160a(iii)",
+   "name": "Beta-carotene from blakeslea trispora",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160a(iv)": {
+   "code": "E160a(iv)",
+   "ins": "160a(iv)",
+   "name": "Algal carotenes",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160b": {
+   "code": "E160b",
+   "ins": "160b",
+   "name": "Annatto",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160b(i)": {
+   "code": "E160b(i)",
+   "ins": "160b(i)",
+   "name": "Annatto bixin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160b(ii)": {
+   "code": "E160b(ii)",
+   "ins": "160b(ii)",
+   "name": "Annatto norbixin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160b(iii)": {
+   "code": "E160b(iii)",
+   "ins": "160b(iii)",
+   "name": "Oil-extracted annatto",
+   "classes": []
+  },
+  "E160c": {
+   "code": "E160c",
+   "ins": "160c",
+   "name": "Paprika extract",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160c(i)": {
+   "code": "E160c(i)",
+   "ins": "160c(i)",
+   "name": "E160c(i)",
+   "classes": []
+  },
+  "E160c(ii)": {
+   "code": "E160c(ii)",
+   "ins": "160c(ii)",
+   "name": "E160c(ii)",
+   "classes": []
+  },
+  "E160d": {
+   "code": "E160d",
+   "ins": "160d",
+   "name": "Lycopene",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160d(i)": {
+   "code": "E160d(i)",
+   "ins": "160d(i)",
+   "name": "Lycopene\\",
+   "classes": []
+  },
+  "E160d(ii)": {
+   "code": "E160d(ii)",
+   "ins": "160d(ii)",
+   "name": "Lycopene\\",
+   "classes": []
+  },
+  "E160d(iii)": {
+   "code": "E160d(iii)",
+   "ins": "160d(iii)",
+   "name": "Lycopene\\",
+   "classes": []
+  },
+  "E160e": {
+   "code": "E160e",
+   "ins": "160e",
+   "name": "Beta-apo-8′-carotenal (c30)",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E160f": {
+   "code": "E160f",
+   "ins": "160f",
+   "name": "Ethyl ester of beta-apo-8'-carotenic acid (C 30)",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E161": {
+   "code": "E161",
+   "ins": "161",
+   "name": "Xanthophylls",
+   "classes": []
+  },
+  "E161a": {
+   "code": "E161a",
+   "ins": "161a",
+   "name": "Flavoxanthin",
+   "classes": []
+  },
+  "E161b": {
+   "code": "E161b",
+   "ins": "161b",
+   "name": "Lutein",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E161b(i)": {
+   "code": "E161b(i)",
+   "ins": "161b(i)",
+   "name": "Lutein from Tagetes erecta",
+   "classes": []
+  },
+  "E161b(ii)": {
+   "code": "E161b(ii)",
+   "ins": "161b(ii)",
+   "name": "E161b(ii)",
+   "classes": []
+  },
+  "E161b(iii)": {
+   "code": "E161b(iii)",
+   "ins": "161b(iii)",
+   "name": "Lutein esters from Tagetes erecta",
+   "classes": []
+  },
+  "E161c": {
+   "code": "E161c",
+   "ins": "161c",
+   "name": "Cryptoaxanthin",
+   "classes": []
+  },
+  "E161d": {
+   "code": "E161d",
+   "ins": "161d",
+   "name": "Rubixanthin",
+   "classes": []
+  },
+  "E161e": {
+   "code": "E161e",
+   "ins": "161e",
+   "name": "Violaxanthin",
+   "classes": []
+  },
+  "E161f": {
+   "code": "E161f",
+   "ins": "161f",
+   "name": "Rhodoxanthin",
+   "classes": []
+  },
+  "E161g": {
+   "code": "E161g",
+   "ins": "161g",
+   "name": "Canthaxanthin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E161h": {
+   "code": "E161h",
+   "ins": "161h",
+   "name": "Zeaxanthin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E161h(i)": {
+   "code": "E161h(i)",
+   "ins": "161h(i)",
+   "name": "Zeaxanthin\\",
+   "classes": []
+  },
+  "E161h(ii)": {
+   "code": "E161h(ii)",
+   "ins": "161h(ii)",
+   "name": "E161h(ii)",
+   "classes": []
+  },
+  "E161i": {
+   "code": "E161i",
+   "ins": "161i",
+   "name": "Citranaxanthin",
+   "classes": []
+  },
+  "E161j": {
+   "code": "E161j",
+   "ins": "161j",
+   "name": "Astaxanthin",
+   "classes": []
+  },
+  "E162": {
+   "code": "E162",
+   "ins": "162",
+   "name": "Beetroot red",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163": {
+   "code": "E163",
+   "ins": "163",
+   "name": "Anthocyanins",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163(ii)": {
+   "code": "E163(ii)",
+   "ins": "163(ii)",
+   "name": "E163(ii)",
+   "classes": []
+  },
+  "E163(iii)": {
+   "code": "E163(iii)",
+   "ins": "163(iii)",
+   "name": "E163(iii)",
+   "classes": []
+  },
+  "E163(iv)": {
+   "code": "E163(iv)",
+   "ins": "163(iv)",
+   "name": "E163(iv)",
+   "classes": []
+  },
+  "E163(v)": {
+   "code": "E163(v)",
+   "ins": "163(v)",
+   "name": "E163(v)",
+   "classes": []
+  },
+  "E163(vi)": {
+   "code": "E163(vi)",
+   "ins": "163(vi)",
+   "name": "E163(vi)",
+   "classes": []
+  },
+  "E163(vii)": {
+   "code": "E163(vii)",
+   "ins": "163(vii)",
+   "name": "E163(vii)",
+   "classes": []
+  },
+  "E163(viii)": {
+   "code": "E163(viii)",
+   "ins": "163(viii)",
+   "name": "E163(viii)",
+   "classes": []
+  },
+  "E163(ix)": {
+   "code": "E163(ix)",
+   "ins": "163(ix)",
+   "name": "E163(ix)",
+   "classes": []
+  },
+  "E163(x)": {
+   "code": "E163(x)",
+   "ins": "163(x)",
+   "name": "E163(x)",
+   "classes": []
+  },
+  "E163(xi)": {
+   "code": "E163(xi)",
+   "ins": "163(xi)",
+   "name": "E163(xi)",
+   "classes": []
+  },
+  "E163a": {
+   "code": "E163a",
+   "ins": "163a",
+   "name": "Cyanidin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163b": {
+   "code": "E163b",
+   "ins": "163b",
+   "name": "Delphinidin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163c": {
+   "code": "E163c",
+   "ins": "163c",
+   "name": "Malvidin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163d": {
+   "code": "E163d",
+   "ins": "163d",
+   "name": "Pelargonidin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163e": {
+   "code": "E163e",
+   "ins": "163e",
+   "name": "Peonidin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E163f": {
+   "code": "E163f",
+   "ins": "163f",
+   "name": "Petunidin",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E164": {
+   "code": "E164",
+   "ins": "164",
+   "name": "saffron",
+   "classes": []
+  },
+  "E165": {
+   "code": "E165",
+   "ins": "165",
+   "name": "Gardenia Blue",
+   "classes": []
+  },
+  "E166": {
+   "code": "E166",
+   "ins": "166",
+   "name": "Sandalwood",
+   "classes": []
+  },
+  "E170(i)": {
+   "code": "E170(i)",
+   "ins": "170(i)",
+   "name": "Calcium carbonate",
+   "classes": [
+    "colour",
+    "stabiliser"
+   ]
+  },
+  "E171": {
+   "code": "E171",
+   "ins": "171",
+   "name": "Titanium dioxide",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E172": {
+   "code": "E172",
+   "ins": "172",
+   "name": "Iron oxides and iron hydroxides",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E172(i)": {
+   "code": "E172(i)",
+   "ins": "172(i)",
+   "name": "Black iron oxide",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E172(ii)": {
+   "code": "E172(ii)",
+   "ins": "172(ii)",
+   "name": "Red iron oxide",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E172(iii)": {
+   "code": "E172(iii)",
+   "ins": "172(iii)",
+   "name": "Yellow iron oxide",
+   "classes": [
+    "colour"
+   ]
+  },
+  "E173": {
+   "code": "E173",
+   "ins": "173",
+   "name": "Aluminium",
+   "classes": []
+  },
+  "E174": {
+   "code": "E174",
+   "ins": "174",
+   "name": "Silver",
+   "classes": []
+  },
+  "E175": {
+   "code": "E175",
+   "ins": "175",
+   "name": "Gold",
+   "classes": []
+  },
+  "E180": {
+   "code": "E180",
+   "ins": "180",
+   "name": "Litholrubine bk",
+   "classes": []
+  },
+  "E181": {
+   "code": "E181",
+   "ins": "181",
+   "name": "Tannin",
+   "classes": [
+    "colour",
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E182": {
+   "code": "E182",
+   "ins": "182",
+   "name": "Orcein",
+   "classes": []
+  },
+  "E200": {
+   "code": "E200",
+   "ins": "200",
+   "name": "Sorbic acid",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E201": {
+   "code": "E201",
+   "ins": "201",
+   "name": "Sodium sorbate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E202": {
+   "code": "E202",
+   "ins": "202",
+   "name": "Potassium sorbate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E203": {
+   "code": "E203",
+   "ins": "203",
+   "name": "Calcium sorbate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E209": {
+   "code": "E209",
+   "ins": "209",
+   "name": "Heptylparaben",
+   "classes": []
+  },
+  "E210": {
+   "code": "E210",
+   "ins": "210",
+   "name": "Benzoic acid",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E211": {
+   "code": "E211",
+   "ins": "211",
+   "name": "Sodium benzoate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E212": {
+   "code": "E212",
+   "ins": "212",
+   "name": "Potassium benzoate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E213": {
+   "code": "E213",
+   "ins": "213",
+   "name": "Calcium benzoate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E214": {
+   "code": "E214",
+   "ins": "214",
+   "name": "Ethyl p-hydroxybenzoate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E215": {
+   "code": "E215",
+   "ins": "215",
+   "name": "Sodium ethyl p-hydroxybenzoate",
+   "classes": []
+  },
+  "E216": {
+   "code": "E216",
+   "ins": "216",
+   "name": "Propyl para-hydroxybenzoate",
+   "classes": []
+  },
+  "E217": {
+   "code": "E217",
+   "ins": "217",
+   "name": "Sodium propyl para-hydroxybenzoate",
+   "classes": []
+  },
+  "E218": {
+   "code": "E218",
+   "ins": "218",
+   "name": "Methyl p-hydroxybenzoate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E219": {
+   "code": "E219",
+   "ins": "219",
+   "name": "Sodium methyl p-hydroxybenzoate",
+   "classes": []
+  },
+  "E220": {
+   "code": "E220",
+   "ins": "220",
+   "name": "Sulphur dioxide",
+   "classes": [
+    "antioxidant",
+    "preservative"
+   ]
+  },
+  "E221": {
+   "code": "E221",
+   "ins": "221",
+   "name": "Sodium sulphite",
+   "classes": [
+    "antioxidant",
+    "preservative"
+   ]
+  },
+  "E222": {
+   "code": "E222",
+   "ins": "222",
+   "name": "Sodium bisulphite",
+   "classes": [
+    "antioxidant",
+    "preservative"
+   ]
+  },
+  "E223": {
+   "code": "E223",
+   "ins": "223",
+   "name": "Sodium metabisulphite",
+   "classes": [
+    "antioxidant",
+    "preservative"
+   ]
+  },
+  "E224": {
+   "code": "E224",
+   "ins": "224",
+   "name": "Potassium metabisulphite",
+   "classes": [
+    "antioxidant",
+    "preservative"
+   ]
+  },
+  "E225": {
+   "code": "E225",
+   "ins": "225",
+   "name": "Calcium Disulphite",
+   "classes": [
+    "antioxidant",
+    "preservative"
+   ]
+  },
+  "E226": {
+   "code": "E226",
+   "ins": "226",
+   "name": "Calcium sulphite",
+   "classes": []
+  },
+  "E227": {
+   "code": "E227",
+   "ins": "227",
+   "name": "Calcium bisulphite",
+   "classes": []
+  },
+  "E228": {
+   "code": "E228",
+   "ins": "228",
+   "name": "Potassium bisulphite",
+   "classes": []
+  },
+  "E230": {
+   "code": "E230",
+   "ins": "230",
+   "name": "Biphenyl",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E231": {
+   "code": "E231",
+   "ins": "231",
+   "name": "Orthophenyl phenol",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E232": {
+   "code": "E232",
+   "ins": "232",
+   "name": "Sodium orthophenyl phenol",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E233": {
+   "code": "E233",
+   "ins": "233",
+   "name": "Thiabendazole",
+   "classes": []
+  },
+  "E234": {
+   "code": "E234",
+   "ins": "234",
+   "name": "Nisin",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E235": {
+   "code": "E235",
+   "ins": "235",
+   "name": "Natamycin",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E236": {
+   "code": "E236",
+   "ins": "236",
+   "name": "Formic acid",
+   "classes": []
+  },
+  "E237": {
+   "code": "E237",
+   "ins": "237",
+   "name": "Sodium formiate",
+   "classes": []
+  },
+  "E238": {
+   "code": "E238",
+   "ins": "238",
+   "name": "Calcium formiate",
+   "classes": []
+  },
+  "E239": {
+   "code": "E239",
+   "ins": "239",
+   "name": "Hexamethylene tetramine",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E240": {
+   "code": "E240",
+   "ins": "240",
+   "name": "Formaldehyde",
+   "classes": []
+  },
+  "E241": {
+   "code": "E241",
+   "ins": "241",
+   "name": "Gum Guaicum",
+   "classes": []
+  },
+  "E242": {
+   "code": "E242",
+   "ins": "242",
+   "name": "Dimethyl dicarbonate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E243": {
+   "code": "E243",
+   "ins": "243",
+   "name": "Ethyl lauroyl arginate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E246": {
+   "code": "E246",
+   "ins": "246",
+   "name": "Glycolipids",
+   "classes": []
+  },
+  "E249": {
+   "code": "E249",
+   "ins": "249",
+   "name": "Potassium nitrite",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E250": {
+   "code": "E250",
+   "ins": "250",
+   "name": "Sodium nitrite",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E251": {
+   "code": "E251",
+   "ins": "251",
+   "name": "Sodium nitrate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E252": {
+   "code": "E252",
+   "ins": "252",
+   "name": "Potassium nitrate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E260": {
+   "code": "E260",
+   "ins": "260",
+   "name": "Acetic acid",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E261": {
+   "code": "E261",
+   "ins": "261",
+   "name": "Potassium acetate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E261(i)": {
+   "code": "E261(i)",
+   "ins": "261(i)",
+   "name": "E261(i)",
+   "classes": []
+  },
+  "E261(ii)": {
+   "code": "E261(ii)",
+   "ins": "261(ii)",
+   "name": "Potassium diacetate",
+   "classes": []
+  },
+  "E262": {
+   "code": "E262",
+   "ins": "262",
+   "name": "Sodium acetates",
+   "classes": [
+    "preservative",
+    "sequestrant"
+   ]
+  },
+  "E262(i)": {
+   "code": "E262(i)",
+   "ins": "262(i)",
+   "name": "Sodium acetate",
+   "classes": [
+    "preservative",
+    "sequestrant"
+   ]
+  },
+  "E262(ii)": {
+   "code": "E262(ii)",
+   "ins": "262(ii)",
+   "name": "Sodium diacetate",
+   "classes": [
+    "preservative",
+    "sequestrant"
+   ]
+  },
+  "E263": {
+   "code": "E263",
+   "ins": "263",
+   "name": "Calcium acetate",
+   "classes": [
+    "preservative",
+    "stabiliser"
+   ]
+  },
+  "E264": {
+   "code": "E264",
+   "ins": "264",
+   "name": "Ammonium acetate",
+   "classes": []
+  },
+  "E265": {
+   "code": "E265",
+   "ins": "265",
+   "name": "Dehydroacetic acid",
+   "classes": []
+  },
+  "E266": {
+   "code": "E266",
+   "ins": "266",
+   "name": "Sodium dehydroacetate",
+   "classes": []
+  },
+  "E267": {
+   "code": "E267",
+   "ins": "267",
+   "name": "Buffered vinegar",
+   "classes": []
+  },
+  "E280": {
+   "code": "E280",
+   "ins": "280",
+   "name": "Propionic acid",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E281": {
+   "code": "E281",
+   "ins": "281",
+   "name": "Sodium propionate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E282": {
+   "code": "E282",
+   "ins": "282",
+   "name": "calcium propionate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E283": {
+   "code": "E283",
+   "ins": "283",
+   "name": "Potassium propionate",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E284": {
+   "code": "E284",
+   "ins": "284",
+   "name": "Boric acid",
+   "classes": []
+  },
+  "E285": {
+   "code": "E285",
+   "ins": "285",
+   "name": "Sodium tetraborate (borax)",
+   "classes": []
+  },
+  "E290": {
+   "code": "E290",
+   "ins": "290",
+   "name": "Carbon dioxide",
+   "classes": [
+    "preservative",
+    "propellent-gas"
+   ]
+  },
+  "E296": {
+   "code": "E296",
+   "ins": "296",
+   "name": "Malic acid",
+   "classes": []
+  },
+  "E297": {
+   "code": "E297",
+   "ins": "297",
+   "name": "Fumaric acid",
+   "classes": []
+  },
+  "E300": {
+   "code": "E300",
+   "ins": "300",
+   "name": "Ascorbic acid",
+   "classes": [
+    "antioxidant",
+    "sequestrant"
+   ]
+  },
+  "E301": {
+   "code": "E301",
+   "ins": "301",
+   "name": "Sodium ascorbate",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E302": {
+   "code": "E302",
+   "ins": "302",
+   "name": "Calcium ascorbate",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E303": {
+   "code": "E303",
+   "ins": "303",
+   "name": "Potassium ascorbate",
+   "classes": []
+  },
+  "E304": {
+   "code": "E304",
+   "ins": "304",
+   "name": "Fatty acid esters of ascorbic acid",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E304(i)": {
+   "code": "E304(i)",
+   "ins": "304(i)",
+   "name": "Ascorbyl palmitate",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E304(ii)": {
+   "code": "E304(ii)",
+   "ins": "304(ii)",
+   "name": "Ascorbyl stearate",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E306": {
+   "code": "E306",
+   "ins": "306",
+   "name": "Tocopherol-rich extract",
+   "classes": []
+  },
+  "E307a": {
+   "code": "E307a",
+   "ins": "307a",
+   "name": "D-Alpha-tocopherol",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E307b": {
+   "code": "E307b",
+   "ins": "307b",
+   "name": "concentrated tocopherol",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E307c": {
+   "code": "E307c",
+   "ins": "307c",
+   "name": "DL-Alpha-tocopherol",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E308": {
+   "code": "E308",
+   "ins": "308",
+   "name": "Gamme-tocopherol",
+   "classes": []
+  },
+  "E309": {
+   "code": "E309",
+   "ins": "309",
+   "name": "Delta-tocopherol",
+   "classes": []
+  },
+  "E307": {
+   "code": "E307",
+   "ins": "307",
+   "name": "Alpha-tocopherol",
+   "classes": []
+  },
+  "E310": {
+   "code": "E310",
+   "ins": "310",
+   "name": "Propyl gallate",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E311": {
+   "code": "E311",
+   "ins": "311",
+   "name": "Octyl gallate",
+   "classes": []
+  },
+  "E312": {
+   "code": "E312",
+   "ins": "312",
+   "name": "Dodecyl gallate",
+   "classes": []
+  },
+  "E313": {
+   "code": "E313",
+   "ins": "313",
+   "name": "Ethyl gallate",
+   "classes": []
+  },
+  "E314": {
+   "code": "E314",
+   "ins": "314",
+   "name": "Guaiacum",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E315": {
+   "code": "E315",
+   "ins": "315",
+   "name": "Erythorbic acid",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E316": {
+   "code": "E316",
+   "ins": "316",
+   "name": "sodium erythorbate",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E317": {
+   "code": "E317",
+   "ins": "317",
+   "name": "Erythorbin acid",
+   "classes": []
+  },
+  "E318": {
+   "code": "E318",
+   "ins": "318",
+   "name": "Calcium erythorbin",
+   "classes": []
+  },
+  "E319": {
+   "code": "E319",
+   "ins": "319",
+   "name": "Tertiary-butylhydroquinone (tbhq)",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E320": {
+   "code": "E320",
+   "ins": "320",
+   "name": "Butylated hydroxyanisole (bha)",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E321": {
+   "code": "E321",
+   "ins": "321",
+   "name": "Butylated hydroxytoluene",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E322": {
+   "code": "E322",
+   "ins": "322",
+   "name": "Lecithins",
+   "classes": [
+    "antioxidant",
+    "emulsifier"
+   ]
+  },
+  "E322(i)": {
+   "code": "E322(i)",
+   "ins": "322(i)",
+   "name": "Lecithin",
+   "classes": [
+    "antioxidant",
+    "emulsifier"
+   ]
+  },
+  "E322(ii)": {
+   "code": "E322(ii)",
+   "ins": "322(ii)",
+   "name": "Partially hydrolyzed lecithin",
+   "classes": [
+    "antioxidant",
+    "emulsifier"
+   ]
+  },
+  "E322(iii)": {
+   "code": "E322(iii)",
+   "ins": "322(iii)",
+   "name": "Lecithin\\",
+   "classes": []
+  },
+  "E322a": {
+   "code": "E322a",
+   "ins": "322a",
+   "name": "Oat lecithin",
+   "classes": []
+  },
+  "E323": {
+   "code": "E323",
+   "ins": "323",
+   "name": "Anoxomer",
+   "classes": []
+  },
+  "E324": {
+   "code": "E324",
+   "ins": "324",
+   "name": "Ethoxyquin",
+   "classes": []
+  },
+  "E325": {
+   "code": "E325",
+   "ins": "325",
+   "name": "sodium lactate",
+   "classes": [
+    "antioxidant",
+    "emulsifier",
+    "humectant",
+    "thickener"
+   ]
+  },
+  "E326": {
+   "code": "E326",
+   "ins": "326",
+   "name": "potassium lactate",
+   "classes": [
+    "antioxidant",
+    "emulsifier",
+    "humectant"
+   ]
+  },
+  "E327": {
+   "code": "E327",
+   "ins": "327",
+   "name": "calcium lactate",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E328": {
+   "code": "E328",
+   "ins": "328",
+   "name": "ammonium lactate",
+   "classes": []
+  },
+  "E329": {
+   "code": "E329",
+   "ins": "329",
+   "name": "Magnesium lactate",
+   "classes": []
+  },
+  "E330": {
+   "code": "E330",
+   "ins": "330",
+   "name": "Citric acid",
+   "classes": [
+    "antioxidant",
+    "sequestrant"
+   ]
+  },
+  "E331": {
+   "code": "E331",
+   "ins": "331",
+   "name": "Sodium citrates",
+   "classes": [
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E331(i)": {
+   "code": "E331(i)",
+   "ins": "331(i)",
+   "name": "Monosodium citrate",
+   "classes": [
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E331(ii)": {
+   "code": "E331(ii)",
+   "ins": "331(ii)",
+   "name": "Disodium citrate",
+   "classes": [
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E331(iii)": {
+   "code": "E331(iii)",
+   "ins": "331(iii)",
+   "name": "Trisodium citrate",
+   "classes": []
+  },
+  "E332": {
+   "code": "E332",
+   "ins": "332",
+   "name": "Potassium citrates",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E332(i)": {
+   "code": "E332(i)",
+   "ins": "332(i)",
+   "name": "Monopotassium citrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E332(ii)": {
+   "code": "E332(ii)",
+   "ins": "332(ii)",
+   "name": "Tripotassium citrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E333": {
+   "code": "E333",
+   "ins": "333",
+   "name": "Calcium citrates",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E333(i)": {
+   "code": "E333(i)",
+   "ins": "333(i)",
+   "name": "Monocalcium citrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E333(ii)": {
+   "code": "E333(ii)",
+   "ins": "333(ii)",
+   "name": "Dicalcium citrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E333(iii)": {
+   "code": "E333(iii)",
+   "ins": "333(iii)",
+   "name": "Tricalcium citrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E334": {
+   "code": "E334",
+   "ins": "334",
+   "name": "L(+)-tartaric acid",
+   "classes": [
+    "antioxidant",
+    "sequestrant"
+   ]
+  },
+  "E335": {
+   "code": "E335",
+   "ins": "335",
+   "name": "Sodium tartrates",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E335(i)": {
+   "code": "E335(i)",
+   "ins": "335(i)",
+   "name": "Monosodium tartrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E335(ii)": {
+   "code": "E335(ii)",
+   "ins": "335(ii)",
+   "name": "Disodium tartrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E336": {
+   "code": "E336",
+   "ins": "336",
+   "name": "Potassium tartrates",
+   "classes": []
+  },
+  "E336(i)": {
+   "code": "E336(i)",
+   "ins": "336(i)",
+   "name": "Monopotassium tartrate",
+   "classes": []
+  },
+  "E336(ii)": {
+   "code": "E336(ii)",
+   "ins": "336(ii)",
+   "name": "Dipotassium tartrate",
+   "classes": []
+  },
+  "E337": {
+   "code": "E337",
+   "ins": "337",
+   "name": "Potassium sodium tartrate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E338": {
+   "code": "E338",
+   "ins": "338",
+   "name": "Phosphoric acid",
+   "classes": [
+    "antioxidant",
+    "sequestrant"
+   ]
+  },
+  "E339": {
+   "code": "E339",
+   "ins": "339",
+   "name": "Sodium phosphates",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "preservative",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E339(i)": {
+   "code": "E339(i)",
+   "ins": "339(i)",
+   "name": "Monosodium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "preservative",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E339(ii)": {
+   "code": "E339(ii)",
+   "ins": "339(ii)",
+   "name": "Disodium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "preservative",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E339(iii)": {
+   "code": "E339(iii)",
+   "ins": "339(iii)",
+   "name": "Trisodium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "preservative",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E340": {
+   "code": "E340",
+   "ins": "340",
+   "name": "Potassium phosphates",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E340(i)": {
+   "code": "E340(i)",
+   "ins": "340(i)",
+   "name": "Monopotassium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E340(ii)": {
+   "code": "E340(ii)",
+   "ins": "340(ii)",
+   "name": "Dipotassium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E340(iii)": {
+   "code": "E340(iii)",
+   "ins": "340(iii)",
+   "name": "Tripotassium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E341": {
+   "code": "E341",
+   "ins": "341",
+   "name": "Calcium phosphates",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E341(i)": {
+   "code": "E341(i)",
+   "ins": "341(i)",
+   "name": "Monocalcium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E341(ii)": {
+   "code": "E341(ii)",
+   "ins": "341(ii)",
+   "name": "Dicalcium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E341(iii)": {
+   "code": "E341(iii)",
+   "ins": "341(iii)",
+   "name": "Tricalcium phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E342": {
+   "code": "E342",
+   "ins": "342",
+   "name": "Ammonium phosphate",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E342(i)": {
+   "code": "E342(i)",
+   "ins": "342(i)",
+   "name": "Ammonium dihydrogen phosphate",
+   "classes": []
+  },
+  "E342(ii)": {
+   "code": "E342(ii)",
+   "ins": "342(ii)",
+   "name": "Diammonium hydrogen phosphate",
+   "classes": []
+  },
+  "E343": {
+   "code": "E343",
+   "ins": "343",
+   "name": "Magnesium phosphates",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E343(i)": {
+   "code": "E343(i)",
+   "ins": "343(i)",
+   "name": "Monomagnesium phosphate",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E343(ii)": {
+   "code": "E343(ii)",
+   "ins": "343(ii)",
+   "name": "Dimagnesium phosphate",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E343(iii)": {
+   "code": "E343(iii)",
+   "ins": "343(iii)",
+   "name": "Trimagnesium phosphate",
+   "classes": []
+  },
+  "E344": {
+   "code": "E344",
+   "ins": "344",
+   "name": "Lecithin citrate",
+   "classes": []
+  },
+  "E345": {
+   "code": "E345",
+   "ins": "345",
+   "name": "Magnesium citrate",
+   "classes": []
+  },
+  "E349": {
+   "code": "E349",
+   "ins": "349",
+   "name": "ammonium malate",
+   "classes": []
+  },
+  "E350": {
+   "code": "E350",
+   "ins": "350",
+   "name": "Sodium malates",
+   "classes": [
+    "humectant"
+   ]
+  },
+  "E350(i)": {
+   "code": "E350(i)",
+   "ins": "350(i)",
+   "name": "Sodium malate",
+   "classes": [
+    "humectant"
+   ]
+  },
+  "E350(ii)": {
+   "code": "E350(ii)",
+   "ins": "350(ii)",
+   "name": "Sodium hydrogen malate",
+   "classes": [
+    "humectant"
+   ]
+  },
+  "E351": {
+   "code": "E351",
+   "ins": "351",
+   "name": "Potassium malate",
+   "classes": []
+  },
+  "E351(i)": {
+   "code": "E351(i)",
+   "ins": "351(i)",
+   "name": "Potassium hydrogen malate",
+   "classes": []
+  },
+  "E351(ii)": {
+   "code": "E351(ii)",
+   "ins": "351(ii)",
+   "name": "E351(ii)",
+   "classes": []
+  },
+  "E352": {
+   "code": "E352",
+   "ins": "352",
+   "name": "Calcium malates",
+   "classes": []
+  },
+  "E352(i)": {
+   "code": "E352(i)",
+   "ins": "352(i)",
+   "name": "Calcium malate",
+   "classes": []
+  },
+  "E352(ii)": {
+   "code": "E352(ii)",
+   "ins": "352(ii)",
+   "name": "Calcium hydrogen malate",
+   "classes": []
+  },
+  "E353": {
+   "code": "E353",
+   "ins": "353",
+   "name": "Metatartaric acid",
+   "classes": []
+  },
+  "E354": {
+   "code": "E354",
+   "ins": "354",
+   "name": "Calcium tartrate",
+   "classes": []
+  },
+  "E355": {
+   "code": "E355",
+   "ins": "355",
+   "name": "Adipic acid",
+   "classes": []
+  },
+  "E356": {
+   "code": "E356",
+   "ins": "356",
+   "name": "Sodium adipate",
+   "classes": []
+  },
+  "E357": {
+   "code": "E357",
+   "ins": "357",
+   "name": "Potassium adipate",
+   "classes": []
+  },
+  "E359": {
+   "code": "E359",
+   "ins": "359",
+   "name": "ammonium adipate",
+   "classes": []
+  },
+  "E363": {
+   "code": "E363",
+   "ins": "363",
+   "name": "Succinic acid",
+   "classes": []
+  },
+  "E364(i)": {
+   "code": "E364(i)",
+   "ins": "364(i)",
+   "name": "Monosodium succinate",
+   "classes": []
+  },
+  "E364(ii)": {
+   "code": "E364(ii)",
+   "ins": "364(ii)",
+   "name": "Disodium succinate",
+   "classes": []
+  },
+  "E364": {
+   "code": "E364",
+   "ins": "364",
+   "name": "Sodium succinates",
+   "classes": []
+  },
+  "E365": {
+   "code": "E365",
+   "ins": "365",
+   "name": "Sodium fumarate",
+   "classes": []
+  },
+  "E366": {
+   "code": "E366",
+   "ins": "366",
+   "name": "Potassium fumarate",
+   "classes": []
+  },
+  "E367": {
+   "code": "E367",
+   "ins": "367",
+   "name": "Calcium fumarate",
+   "classes": []
+  },
+  "E368": {
+   "code": "E368",
+   "ins": "368",
+   "name": "ammonium fumarate",
+   "classes": []
+  },
+  "E370": {
+   "code": "E370",
+   "ins": "370",
+   "name": "1\\",
+   "classes": []
+  },
+  "E375": {
+   "code": "E375",
+   "ins": "375",
+   "name": "Nicotinic acid",
+   "classes": []
+  },
+  "E380": {
+   "code": "E380",
+   "ins": "380",
+   "name": "Triammonium citrate",
+   "classes": []
+  },
+  "E381": {
+   "code": "E381",
+   "ins": "381",
+   "name": "ferric ammonium citrate",
+   "classes": []
+  },
+  "E383": {
+   "code": "E383",
+   "ins": "383",
+   "name": "calcium glycerophosphate",
+   "classes": []
+  },
+  "E384": {
+   "code": "E384",
+   "ins": "384",
+   "name": "Isopropyl citrates",
+   "classes": [
+    "antioxidant",
+    "preservative",
+    "sequestrant"
+   ]
+  },
+  "E385": {
+   "code": "E385",
+   "ins": "385",
+   "name": "Calcium disodium ethylenediaminetetraacetate",
+   "classes": [
+    "antioxidant",
+    "preservative",
+    "sequestrant"
+   ]
+  },
+  "E388": {
+   "code": "E388",
+   "ins": "388",
+   "name": "Thiodipropionic acid",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E391": {
+   "code": "E391",
+   "ins": "391",
+   "name": "Phytic acid",
+   "classes": []
+  },
+  "E392": {
+   "code": "E392",
+   "ins": "392",
+   "name": "Extracts of rosemary",
+   "classes": []
+  },
+  "E399": {
+   "code": "E399",
+   "ins": "399",
+   "name": "Calcium lactobionate",
+   "classes": []
+  },
+  "E400": {
+   "code": "E400",
+   "ins": "400",
+   "name": "Alginic acid",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E401": {
+   "code": "E401",
+   "ins": "401",
+   "name": "sodium alginate",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E402": {
+   "code": "E402",
+   "ins": "402",
+   "name": "Potassium alginate",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E403": {
+   "code": "E403",
+   "ins": "403",
+   "name": "Ammonium alginate",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E404": {
+   "code": "E404",
+   "ins": "404",
+   "name": "Calcium alginate",
+   "classes": [
+    "carrier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E405": {
+   "code": "E405",
+   "ins": "405",
+   "name": "Propane-1\\",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E406": {
+   "code": "E406",
+   "ins": "406",
+   "name": "Agar",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E407": {
+   "code": "E407",
+   "ins": "407",
+   "name": "Carrageenan",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E407a": {
+   "code": "E407a",
+   "ins": "407a",
+   "name": "Processed eucheuma seaweed",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E408": {
+   "code": "E408",
+   "ins": "408",
+   "name": "Bakers yeast glycan",
+   "classes": []
+  },
+  "E409": {
+   "code": "E409",
+   "ins": "409",
+   "name": "Arabinogalactan",
+   "classes": []
+  },
+  "E410": {
+   "code": "E410",
+   "ins": "410",
+   "name": "Locust bean gum",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E411": {
+   "code": "E411",
+   "ins": "411",
+   "name": "E411 food additive",
+   "classes": []
+  },
+  "E412": {
+   "code": "E412",
+   "ins": "412",
+   "name": "Guar gum",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E413": {
+   "code": "E413",
+   "ins": "413",
+   "name": "Tragacanth",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E414": {
+   "code": "E414",
+   "ins": "414",
+   "name": "Acacia gum",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E414a": {
+   "code": "E414a",
+   "ins": "414a",
+   "name": "E414a food additive",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E415": {
+   "code": "E415",
+   "ins": "415",
+   "name": "Xanthan gum",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E416": {
+   "code": "E416",
+   "ins": "416",
+   "name": "Karaya-gum",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E417": {
+   "code": "E417",
+   "ins": "417",
+   "name": "Tara gum",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E418": {
+   "code": "E418",
+   "ins": "418",
+   "name": "Gellan gum",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E418(i)": {
+   "code": "E418(i)",
+   "ins": "418(i)",
+   "name": "E418(i)",
+   "classes": []
+  },
+  "E418(ii)": {
+   "code": "E418(ii)",
+   "ins": "418(ii)",
+   "name": "Low-acyl clarified gellan gum",
+   "classes": []
+  },
+  "E419": {
+   "code": "E419",
+   "ins": "419",
+   "name": "Gum ghatti",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E420": {
+   "code": "E420",
+   "ins": "420",
+   "name": "Sorbitol",
+   "classes": [
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E420(i)": {
+   "code": "E420(i)",
+   "ins": "420(i)",
+   "name": "D-sorbitol",
+   "classes": [
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E420(ii)": {
+   "code": "E420(ii)",
+   "ins": "420(ii)",
+   "name": "Sorbitol syrup",
+   "classes": [
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E421": {
+   "code": "E421",
+   "ins": "421",
+   "name": "Mannitol",
+   "classes": [
+    "humectant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E422": {
+   "code": "E422",
+   "ins": "422",
+   "name": "Glycerol",
+   "classes": [
+    "humectant",
+    "thickener"
+   ]
+  },
+  "E424": {
+   "code": "E424",
+   "ins": "424",
+   "name": "Curdlan",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E425": {
+   "code": "E425",
+   "ins": "425",
+   "name": "Konjac",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E425(i)": {
+   "code": "E425(i)",
+   "ins": "425(i)",
+   "name": "Konjac gum",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E425(ii)": {
+   "code": "E425(ii)",
+   "ins": "425(ii)",
+   "name": "Konjac glucomannan",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E426": {
+   "code": "E426",
+   "ins": "426",
+   "name": "Soybean hemicellulose",
+   "classes": []
+  },
+  "E427": {
+   "code": "E427",
+   "ins": "427",
+   "name": "Cassia gum",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E428": {
+   "code": "E428",
+   "ins": "428",
+   "name": "Gelatine",
+   "classes": []
+  },
+  "E429": {
+   "code": "E429",
+   "ins": "429",
+   "name": "peptone",
+   "classes": []
+  },
+  "E430": {
+   "code": "E430",
+   "ins": "430",
+   "name": "Polyoxyethylene (8) stearate",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E431": {
+   "code": "E431",
+   "ins": "431",
+   "name": "Polyoxyethylene (40) stearate",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E432": {
+   "code": "E432",
+   "ins": "432",
+   "name": "Polyoxyethylene sorbitan monolaurate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E433": {
+   "code": "E433",
+   "ins": "433",
+   "name": "Polyoxyethylene sorbitan monooleate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E434": {
+   "code": "E434",
+   "ins": "434",
+   "name": "Polyoxyethylene sorbitan monopalmitate",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E435": {
+   "code": "E435",
+   "ins": "435",
+   "name": "Polyoxyethylene sorbitan monostearate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E436": {
+   "code": "E436",
+   "ins": "436",
+   "name": "Polyoxyethylene sorbitan tristearate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E440a": {
+   "code": "E440a",
+   "ins": "440a",
+   "name": "E440a",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440a(ii)": {
+   "code": "E440a(ii)",
+   "ins": "440a(ii)",
+   "name": "Sodium pectate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440a(iii)": {
+   "code": "E440a(iii)",
+   "ins": "440a(iii)",
+   "name": "Potassium pectate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440a(iv)": {
+   "code": "E440a(iv)",
+   "ins": "440a(iv)",
+   "name": "Ammonium Pectate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440b": {
+   "code": "E440b",
+   "ins": "440b",
+   "name": "E440b",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440": {
+   "code": "E440",
+   "ins": "440",
+   "name": "Pectins",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440(i)": {
+   "code": "E440(i)",
+   "ins": "440(i)",
+   "name": "non-amidated pectin",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E440(ii)": {
+   "code": "E440(ii)",
+   "ins": "440(ii)",
+   "name": "Amidated pectin",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E441": {
+   "code": "E441",
+   "ins": "441",
+   "name": "Superglycerinated hydrogenated rapeseed oil",
+   "classes": []
+  },
+  "E442": {
+   "code": "E442",
+   "ins": "442",
+   "name": "Ammonium phosphatides",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E443": {
+   "code": "E443",
+   "ins": "443",
+   "name": "Brominated vegetable oil",
+   "classes": []
+  },
+  "E444": {
+   "code": "E444",
+   "ins": "444",
+   "name": "Sucrose acetate isobutyrate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E445": {
+   "code": "E445",
+   "ins": "445",
+   "name": "Glycerol esters of wood rosin",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E445(i)": {
+   "code": "E445(i)",
+   "ins": "445(i)",
+   "name": "Glycerol ester of gum rosin",
+   "classes": []
+  },
+  "E445(ii)": {
+   "code": "E445(ii)",
+   "ins": "445(ii)",
+   "name": "Glycerol ester of tall oil rosin",
+   "classes": []
+  },
+  "E445(iii)": {
+   "code": "E445(iii)",
+   "ins": "445(iii)",
+   "name": "E445(iii)",
+   "classes": []
+  },
+  "E446": {
+   "code": "E446",
+   "ins": "446",
+   "name": "Succistearin",
+   "classes": []
+  },
+  "E540": {
+   "code": "E540",
+   "ins": "540",
+   "name": "E540",
+   "classes": []
+  },
+  "E541": {
+   "code": "E541",
+   "ins": "541",
+   "name": "Sodium aluminium phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E541(i)": {
+   "code": "E541(i)",
+   "ins": "541(i)",
+   "name": "Acid sodium aluminium phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E541(ii)": {
+   "code": "E541(ii)",
+   "ins": "541(ii)",
+   "name": "Alkaline sodium aluminium phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E542": {
+   "code": "E542",
+   "ins": "542",
+   "name": "Bone phosphate",
+   "classes": [
+    "emulsifier",
+    "humectant"
+   ]
+  },
+  "E543": {
+   "code": "E543",
+   "ins": "543",
+   "name": "E543 food additive",
+   "classes": []
+  },
+  "E544": {
+   "code": "E544",
+   "ins": "544",
+   "name": "E544",
+   "classes": []
+  },
+  "E545": {
+   "code": "E545",
+   "ins": "545",
+   "name": "E545",
+   "classes": []
+  },
+  "E546": {
+   "code": "E546",
+   "ins": "546",
+   "name": "Magnesium pyrophosphate",
+   "classes": []
+  },
+  "E550": {
+   "code": "E550",
+   "ins": "550",
+   "name": "Sodium silicate",
+   "classes": []
+  },
+  "E550(i)": {
+   "code": "E550(i)",
+   "ins": "550(i)",
+   "name": "E550(i)",
+   "classes": []
+  },
+  "E550(ii)": {
+   "code": "E550(ii)",
+   "ins": "550(ii)",
+   "name": "Sodium metasilicate",
+   "classes": []
+  },
+  "E450": {
+   "code": "E450",
+   "ins": "450",
+   "name": "Diphosphates",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(i)": {
+   "code": "E450(i)",
+   "ins": "450(i)",
+   "name": "Disodium diphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(ii)": {
+   "code": "E450(ii)",
+   "ins": "450(ii)",
+   "name": "Trisodium diphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(iii)": {
+   "code": "E450(iii)",
+   "ins": "450(iii)",
+   "name": "Tetrasodium diphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(iv)": {
+   "code": "E450(iv)",
+   "ins": "450(iv)",
+   "name": "dipotassium dihydrogenpyrophosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(v)": {
+   "code": "E450(v)",
+   "ins": "450(v)",
+   "name": "Tetrapotassium diphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(vi)": {
+   "code": "E450(vi)",
+   "ins": "450(vi)",
+   "name": "Dicalcium diphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(vii)": {
+   "code": "E450(vii)",
+   "ins": "450(vii)",
+   "name": "Calcium dihydrogen diphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(viii)": {
+   "code": "E450(viii)",
+   "ins": "450(viii)",
+   "name": "E450(viii)",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E450(ix)": {
+   "code": "E450(ix)",
+   "ins": "450(ix)",
+   "name": "Magnesium dihydrogen diphosphate",
+   "classes": []
+  },
+  "E451": {
+   "code": "E451",
+   "ins": "451",
+   "name": "Triphosphates",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E451(i)": {
+   "code": "E451(i)",
+   "ins": "451(i)",
+   "name": "Pentasodium triphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E451(ii)": {
+   "code": "E451(ii)",
+   "ins": "451(ii)",
+   "name": "Pentapotassium triphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E451(iii)": {
+   "code": "E451(iii)",
+   "ins": "451(iii)",
+   "name": "Sodium potassium triphosphate",
+   "classes": []
+  },
+  "E452": {
+   "code": "E452",
+   "ins": "452",
+   "name": "Polyphosphates",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E452(i)": {
+   "code": "E452(i)",
+   "ins": "452(i)",
+   "name": "Sodium polyphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E452(ii)": {
+   "code": "E452(ii)",
+   "ins": "452(ii)",
+   "name": "Potassium polyphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E452(iii)": {
+   "code": "E452(iii)",
+   "ins": "452(iii)",
+   "name": "Sodium calcium polyphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E452(iv)": {
+   "code": "E452(iv)",
+   "ins": "452(iv)",
+   "name": "Calcium polyphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E452(v)": {
+   "code": "E452(v)",
+   "ins": "452(v)",
+   "name": "Ammonium polyphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E452(vi)": {
+   "code": "E452(vi)",
+   "ins": "452(vi)",
+   "name": "Sodium tripolyphosphate",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E457": {
+   "code": "E457",
+   "ins": "457",
+   "name": "Alpha-Cyclodextrine",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E458": {
+   "code": "E458",
+   "ins": "458",
+   "name": "Gamma-Cyclodextrine",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E459": {
+   "code": "E459",
+   "ins": "459",
+   "name": "Beta-cyclodextrine",
+   "classes": [
+    "carrier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E460": {
+   "code": "E460",
+   "ins": "460",
+   "name": "Cellulose",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E460(i)": {
+   "code": "E460(i)",
+   "ins": "460(i)",
+   "name": "Microcrystalline cellulose",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E460(ii)": {
+   "code": "E460(ii)",
+   "ins": "460(ii)",
+   "name": "Powdered cellulose",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E461": {
+   "code": "E461",
+   "ins": "461",
+   "name": "methyl cellulose",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E462": {
+   "code": "E462",
+   "ins": "462",
+   "name": "Ethyl cellulose",
+   "classes": [
+    "carrier",
+    "thickener"
+   ]
+  },
+  "E463": {
+   "code": "E463",
+   "ins": "463",
+   "name": "Hydroxypropyl cellulose",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E464": {
+   "code": "E464",
+   "ins": "464",
+   "name": "Hydroxypropyl methyl cellulose",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E465": {
+   "code": "E465",
+   "ins": "465",
+   "name": "Ethyl methyl cellulose",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E466": {
+   "code": "E466",
+   "ins": "466",
+   "name": "Sodium carboxy methyl cellulose",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E467": {
+   "code": "E467",
+   "ins": "467",
+   "name": "Ethulose",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E468": {
+   "code": "E468",
+   "ins": "468",
+   "name": "Cross-linked sodium carboxymethylcellulose",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E469": {
+   "code": "E469",
+   "ins": "469",
+   "name": "Enzymatically hydrolysed carboxymethylcellulose",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E470": {
+   "code": "E470",
+   "ins": "470",
+   "name": "Sodium/potassium/calcium and magnesium salts of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E470(i)": {
+   "code": "E470(i)",
+   "ins": "470(i)",
+   "name": "E470(i)",
+   "classes": []
+  },
+  "E470(ii)": {
+   "code": "E470(ii)",
+   "ins": "470(ii)",
+   "name": "E470(ii)",
+   "classes": []
+  },
+  "E470(iii)": {
+   "code": "E470(iii)",
+   "ins": "470(iii)",
+   "name": "E470(iii)",
+   "classes": []
+  },
+  "E470a": {
+   "code": "E470a",
+   "ins": "470a",
+   "name": "Sodium/potassium and calcium salts of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E470a(i)": {
+   "code": "E470a(i)",
+   "ins": "470a(i)",
+   "name": "Sodium salts of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E470a(ii)": {
+   "code": "E470a(ii)",
+   "ins": "470a(ii)",
+   "name": "Potassium salts of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E470a(iii)": {
+   "code": "E470a(iii)",
+   "ins": "470a(iii)",
+   "name": "Calcium salts of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E470b": {
+   "code": "E470b",
+   "ins": "470b",
+   "name": "Magnesium salts of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E471": {
+   "code": "E471",
+   "ins": "471",
+   "name": "Mono- and diglycerides of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E472": {
+   "code": "E472",
+   "ins": "472",
+   "name": "acid esters of mono- and diglycerides of fatty acids",
+   "classes": []
+  },
+  "E472a": {
+   "code": "E472a",
+   "ins": "472a",
+   "name": "Acetic acid esters of mono- and diglycerides of fatty acids",
+   "classes": [
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E472b": {
+   "code": "E472b",
+   "ins": "472b",
+   "name": "Lactic acid esters of mono- and diglycerides of fatty acids",
+   "classes": [
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E472c": {
+   "code": "E472c",
+   "ins": "472c",
+   "name": "Citric acid esters of mono- and diglycerides of fatty acids",
+   "classes": [
+    "antioxidant",
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E472d": {
+   "code": "E472d",
+   "ins": "472d",
+   "name": "Tartaric acid esters of mono- and diglycerides of fatty acids",
+   "classes": []
+  },
+  "E472e": {
+   "code": "E472e",
+   "ins": "472e",
+   "name": "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+   "classes": [
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E472f": {
+   "code": "E472f",
+   "ins": "472f",
+   "name": "Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids",
+   "classes": []
+  },
+  "E472g": {
+   "code": "E472g",
+   "ins": "472g",
+   "name": "Succinylated monoglycerides",
+   "classes": []
+  },
+  "E473": {
+   "code": "E473",
+   "ins": "473",
+   "name": "Sucrose esters of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E473a": {
+   "code": "E473a",
+   "ins": "473a",
+   "name": "Oligoesters of sucrose type I",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E474": {
+   "code": "E474",
+   "ins": "474",
+   "name": "Sucroglycerides",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E475": {
+   "code": "E475",
+   "ins": "475",
+   "name": "Polyglycerol esters of fatty acids",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E476": {
+   "code": "E476",
+   "ins": "476",
+   "name": "Polyglycerol polyricinoleate",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E477": {
+   "code": "E477",
+   "ins": "477",
+   "name": "Propane-1\\",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E478": {
+   "code": "E478",
+   "ins": "478",
+   "name": "Lactylated fatty acid esters of glycerol and propane-1",
+   "classes": []
+  },
+  "E479b": {
+   "code": "E479b",
+   "ins": "479b",
+   "name": "Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E481": {
+   "code": "E481",
+   "ins": "481",
+   "name": "Sodium stearoyl-2-lactylate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E481(i)": {
+   "code": "E481(i)",
+   "ins": "481(i)",
+   "name": "E481(i)",
+   "classes": []
+  },
+  "E481(ii)": {
+   "code": "E481(ii)",
+   "ins": "481(ii)",
+   "name": "Sodium oleyl lactylate",
+   "classes": []
+  },
+  "E482": {
+   "code": "E482",
+   "ins": "482",
+   "name": "Calcium stearoyl-2-lactylate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E482(i)": {
+   "code": "E482(i)",
+   "ins": "482(i)",
+   "name": "Calcium stearoyl lactylate",
+   "classes": []
+  },
+  "E482(ii)": {
+   "code": "E482(ii)",
+   "ins": "482(ii)",
+   "name": "Calcium oleyl lactylate",
+   "classes": []
+  },
+  "E483": {
+   "code": "E483",
+   "ins": "483",
+   "name": "Stearyl tartrate",
+   "classes": []
+  },
+  "E484": {
+   "code": "E484",
+   "ins": "484",
+   "name": "Stearyl citrate",
+   "classes": [
+    "antioxidant",
+    "emulsifier",
+    "sequestrant"
+   ]
+  },
+  "E485": {
+   "code": "E485",
+   "ins": "485",
+   "name": "Sodium stearoyl fumarate",
+   "classes": []
+  },
+  "E486": {
+   "code": "E486",
+   "ins": "486",
+   "name": "Calcium stearoyl fumarate",
+   "classes": []
+  },
+  "E487": {
+   "code": "E487",
+   "ins": "487",
+   "name": "sodium dodecyl sulfate",
+   "classes": []
+  },
+  "E488": {
+   "code": "E488",
+   "ins": "488",
+   "name": "Ethoxylated Mono- and Di-Glycerides",
+   "classes": []
+  },
+  "E489": {
+   "code": "E489",
+   "ins": "489",
+   "name": "Methyl glucoside-coconut oil ester",
+   "classes": []
+  },
+  "E490": {
+   "code": "E490",
+   "ins": "490",
+   "name": "E490",
+   "classes": []
+  },
+  "E491": {
+   "code": "E491",
+   "ins": "491",
+   "name": "Sorbitan monostearate",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E492": {
+   "code": "E492",
+   "ins": "492",
+   "name": "Sorbitan tristearate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E493": {
+   "code": "E493",
+   "ins": "493",
+   "name": "Sorbitan monolaurate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E494": {
+   "code": "E494",
+   "ins": "494",
+   "name": "Sorbitan monooleate",
+   "classes": [
+    "emulsifier",
+    "stabiliser"
+   ]
+  },
+  "E495": {
+   "code": "E495",
+   "ins": "495",
+   "name": "Sorbitan monopalmitate",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E496": {
+   "code": "E496",
+   "ins": "496",
+   "name": "Sorbitan trioleate",
+   "classes": []
+  },
+  "E500": {
+   "code": "E500",
+   "ins": "500",
+   "name": "Sodium carbonates",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E500(i)": {
+   "code": "E500(i)",
+   "ins": "500(i)",
+   "name": "Sodium carbonate",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E500(ii)": {
+   "code": "E500(ii)",
+   "ins": "500(ii)",
+   "name": "Sodium hydrogen carbonate",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E500(iii)": {
+   "code": "E500(iii)",
+   "ins": "500(iii)",
+   "name": "Sodium sesquicarbonate",
+   "classes": [
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E501": {
+   "code": "E501",
+   "ins": "501",
+   "name": "Potassium carbonates",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E501(i)": {
+   "code": "E501(i)",
+   "ins": "501(i)",
+   "name": "Potassium carbonate",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E501(ii)": {
+   "code": "E501(ii)",
+   "ins": "501(ii)",
+   "name": "Potassium hydrogen carbonate",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E502": {
+   "code": "E502",
+   "ins": "502",
+   "name": "Carbonates",
+   "classes": []
+  },
+  "E503": {
+   "code": "E503",
+   "ins": "503",
+   "name": "Ammonium carbonates",
+   "classes": []
+  },
+  "E503(i)": {
+   "code": "E503(i)",
+   "ins": "503(i)",
+   "name": "Ammonium carbonate",
+   "classes": []
+  },
+  "E503(ii)": {
+   "code": "E503(ii)",
+   "ins": "503(ii)",
+   "name": "Ammonium hydrogen carbonate",
+   "classes": []
+  },
+  "E504": {
+   "code": "E504",
+   "ins": "504",
+   "name": "Magnesium carbonates",
+   "classes": [
+    "carrier"
+   ]
+  },
+  "E504(i)": {
+   "code": "E504(i)",
+   "ins": "504(i)",
+   "name": "Magnesium carbonate",
+   "classes": [
+    "carrier"
+   ]
+  },
+  "E504(ii)": {
+   "code": "E504(ii)",
+   "ins": "504(ii)",
+   "name": "Magnesium hydroxide carbonate",
+   "classes": [
+    "carrier"
+   ]
+  },
+  "E505": {
+   "code": "E505",
+   "ins": "505",
+   "name": "Ferrous carbonate",
+   "classes": []
+  },
+  "E507": {
+   "code": "E507",
+   "ins": "507",
+   "name": "Hydrochloric acid",
+   "classes": []
+  },
+  "E508": {
+   "code": "E508",
+   "ins": "508",
+   "name": "Potassium chloride",
+   "classes": [
+    "stabiliser",
+    "thickener",
+    "preservative"
+   ]
+  },
+  "E509": {
+   "code": "E509",
+   "ins": "509",
+   "name": "Calcium chloride",
+   "classes": [
+    "stabiliser",
+    "thickener",
+    "coagulant"
+   ]
+  },
+  "E510": {
+   "code": "E510",
+   "ins": "510",
+   "name": "ammonium chloride",
+   "classes": []
+  },
+  "E511": {
+   "code": "E511",
+   "ins": "511",
+   "name": "Magnesium chloride",
+   "classes": [
+    "stabiliser",
+    "coagulant"
+   ]
+  },
+  "E512": {
+   "code": "E512",
+   "ins": "512",
+   "name": "Stannous chloride",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E513": {
+   "code": "E513",
+   "ins": "513",
+   "name": "Sulphuric acid",
+   "classes": []
+  },
+  "E514": {
+   "code": "E514",
+   "ins": "514",
+   "name": "Sodium sulphates",
+   "classes": []
+  },
+  "E514(i)": {
+   "code": "E514(i)",
+   "ins": "514(i)",
+   "name": "Sodium sulphate",
+   "classes": []
+  },
+  "E514(ii)": {
+   "code": "E514(ii)",
+   "ins": "514(ii)",
+   "name": "Sodium hydrogen sulphate",
+   "classes": []
+  },
+  "E515": {
+   "code": "E515",
+   "ins": "515",
+   "name": "Potassium sulphates",
+   "classes": []
+  },
+  "E515(i)": {
+   "code": "E515(i)",
+   "ins": "515(i)",
+   "name": "Potassium sulphate",
+   "classes": []
+  },
+  "E515(ii)": {
+   "code": "E515(ii)",
+   "ins": "515(ii)",
+   "name": "Potassium hydrogen sulphate",
+   "classes": []
+  },
+  "E516": {
+   "code": "E516",
+   "ins": "516",
+   "name": "Calcium sulphate",
+   "classes": [
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E517": {
+   "code": "E517",
+   "ins": "517",
+   "name": "Ammonium sulphate",
+   "classes": []
+  },
+  "E518": {
+   "code": "E518",
+   "ins": "518",
+   "name": "Magnesium sulphate",
+   "classes": []
+  },
+  "E519": {
+   "code": "E519",
+   "ins": "519",
+   "name": "Copper sulphate",
+   "classes": []
+  },
+  "E520": {
+   "code": "E520",
+   "ins": "520",
+   "name": "Aluminium sulphate",
+   "classes": []
+  },
+  "E521": {
+   "code": "E521",
+   "ins": "521",
+   "name": "Aluminium sodium sulphate",
+   "classes": []
+  },
+  "E522": {
+   "code": "E522",
+   "ins": "522",
+   "name": "Aluminium potassium sulphate",
+   "classes": []
+  },
+  "E523": {
+   "code": "E523",
+   "ins": "523",
+   "name": "Aluminium ammonium sulphate",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E524": {
+   "code": "E524",
+   "ins": "524",
+   "name": "Sodium hydroxide",
+   "classes": []
+  },
+  "E525": {
+   "code": "E525",
+   "ins": "525",
+   "name": "Potassium hydroxide",
+   "classes": []
+  },
+  "E526": {
+   "code": "E526",
+   "ins": "526",
+   "name": "Calcium hydroxide",
+   "classes": []
+  },
+  "E527": {
+   "code": "E527",
+   "ins": "527",
+   "name": "Ammonium hydroxide",
+   "classes": []
+  },
+  "E528": {
+   "code": "E528",
+   "ins": "528",
+   "name": "Magnesium hydroxide",
+   "classes": []
+  },
+  "E529": {
+   "code": "E529",
+   "ins": "529",
+   "name": "Calcium oxide",
+   "classes": []
+  },
+  "E530": {
+   "code": "E530",
+   "ins": "530",
+   "name": "Magnesium oxide",
+   "classes": []
+  },
+  "E535": {
+   "code": "E535",
+   "ins": "535",
+   "name": "Sodium ferrocyanide",
+   "classes": []
+  },
+  "E536": {
+   "code": "E536",
+   "ins": "536",
+   "name": "Potassium ferrocyanide",
+   "classes": []
+  },
+  "E537": {
+   "code": "E537",
+   "ins": "537",
+   "name": "ferrous hexacyanomanganate",
+   "classes": []
+  },
+  "E538": {
+   "code": "E538",
+   "ins": "538",
+   "name": "Calcium ferrocyanide",
+   "classes": []
+  },
+  "E539": {
+   "code": "E539",
+   "ins": "539",
+   "name": "sodium thiosulfate",
+   "classes": [
+    "antioxidant",
+    "sequestrant"
+   ]
+  },
+  "E551": {
+   "code": "E551",
+   "ins": "551",
+   "name": "Silicon dioxide",
+   "classes": [
+    "carrier"
+   ]
+  },
+  "E552": {
+   "code": "E552",
+   "ins": "552",
+   "name": "Calcium silicate",
+   "classes": []
+  },
+  "E553": {
+   "code": "E553",
+   "ins": "553",
+   "name": "Magnesium silicates",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E553(i)": {
+   "code": "E553(i)",
+   "ins": "553(i)",
+   "name": "Magnesium silicate\\",
+   "classes": []
+  },
+  "E553(ii)": {
+   "code": "E553(ii)",
+   "ins": "553(ii)",
+   "name": "E553(ii)",
+   "classes": []
+  },
+  "E553(iii)": {
+   "code": "E553(iii)",
+   "ins": "553(iii)",
+   "name": "E553(iii)",
+   "classes": []
+  },
+  "E553a": {
+   "code": "E553a",
+   "ins": "553a",
+   "name": "synthetic magnesium silicates",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E553a(i)": {
+   "code": "E553a(i)",
+   "ins": "553a(i)",
+   "name": "Synthetic magnesium silicate",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E553a(ii)": {
+   "code": "E553a(ii)",
+   "ins": "553a(ii)",
+   "name": "Magnesium trisilicate",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E553b": {
+   "code": "E553b",
+   "ins": "553b",
+   "name": "Talc",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E554": {
+   "code": "E554",
+   "ins": "554",
+   "name": "Sodium aluminium silicate",
+   "classes": []
+  },
+  "E555": {
+   "code": "E555",
+   "ins": "555",
+   "name": "Potassium aluminium silicate",
+   "classes": []
+  },
+  "E556": {
+   "code": "E556",
+   "ins": "556",
+   "name": "Calcium aluminium silicate",
+   "classes": []
+  },
+  "E557": {
+   "code": "E557",
+   "ins": "557",
+   "name": "hemimorphite",
+   "classes": []
+  },
+  "E558": {
+   "code": "E558",
+   "ins": "558",
+   "name": "Bentonite",
+   "classes": []
+  },
+  "E559": {
+   "code": "E559",
+   "ins": "559",
+   "name": "Aluminium silicate",
+   "classes": []
+  },
+  "E560": {
+   "code": "E560",
+   "ins": "560",
+   "name": "Potassium silicate",
+   "classes": []
+  },
+  "E570": {
+   "code": "E570",
+   "ins": "570",
+   "name": "Fatty acids",
+   "classes": []
+  },
+  "E571": {
+   "code": "E571",
+   "ins": "571",
+   "name": "E571",
+   "classes": []
+  },
+  "E572": {
+   "code": "E572",
+   "ins": "572",
+   "name": "Magnesium stearate",
+   "classes": []
+  },
+  "E573": {
+   "code": "E573",
+   "ins": "573",
+   "name": "Aluminium stearate",
+   "classes": []
+  },
+  "E574": {
+   "code": "E574",
+   "ins": "574",
+   "name": "Gluconic acid",
+   "classes": []
+  },
+  "E575": {
+   "code": "E575",
+   "ins": "575",
+   "name": "Glucono-delta-lactone",
+   "classes": [
+    "sequestrant"
+   ]
+  },
+  "E576": {
+   "code": "E576",
+   "ins": "576",
+   "name": "Sodium gluconate",
+   "classes": [
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E577": {
+   "code": "E577",
+   "ins": "577",
+   "name": "Potassium gluconate",
+   "classes": [
+    "sequestrant"
+   ]
+  },
+  "E578": {
+   "code": "E578",
+   "ins": "578",
+   "name": "calcium gluconate",
+   "classes": [
+    "sequestrant"
+   ]
+  },
+  "E579": {
+   "code": "E579",
+   "ins": "579",
+   "name": "iron gluconate",
+   "classes": []
+  },
+  "E580": {
+   "code": "E580",
+   "ins": "580",
+   "name": "Magnesium Gluconate",
+   "classes": []
+  },
+  "E585": {
+   "code": "E585",
+   "ins": "585",
+   "name": "Ferrous lactate",
+   "classes": []
+  },
+  "E586": {
+   "code": "E586",
+   "ins": "586",
+   "name": "4-hexylresorcinol",
+   "classes": []
+  },
+  "E620": {
+   "code": "E620",
+   "ins": "620",
+   "name": "Glutamic acid",
+   "classes": []
+  },
+  "E621": {
+   "code": "E621",
+   "ins": "621",
+   "name": "Monosodium glutamate",
+   "classes": [
+    "flavour-enhancer"
+   ]
+  },
+  "E622": {
+   "code": "E622",
+   "ins": "622",
+   "name": "Monopotassium glutamate",
+   "classes": []
+  },
+  "E623": {
+   "code": "E623",
+   "ins": "623",
+   "name": "Calcium diglutamate",
+   "classes": []
+  },
+  "E624": {
+   "code": "E624",
+   "ins": "624",
+   "name": "Monoammonium glutamate",
+   "classes": []
+  },
+  "E625": {
+   "code": "E625",
+   "ins": "625",
+   "name": "Magnesium diglutamate",
+   "classes": []
+  },
+  "E626": {
+   "code": "E626",
+   "ins": "626",
+   "name": "Guanylic acid",
+   "classes": []
+  },
+  "E627": {
+   "code": "E627",
+   "ins": "627",
+   "name": "Disodium guanylate",
+   "classes": []
+  },
+  "E628": {
+   "code": "E628",
+   "ins": "628",
+   "name": "Dipotassium guanylate",
+   "classes": []
+  },
+  "E629": {
+   "code": "E629",
+   "ins": "629",
+   "name": "Calcium guanylate",
+   "classes": []
+  },
+  "E630": {
+   "code": "E630",
+   "ins": "630",
+   "name": "Inosinic acid",
+   "classes": []
+  },
+  "E631": {
+   "code": "E631",
+   "ins": "631",
+   "name": "Disodium inosinate",
+   "classes": []
+  },
+  "E632": {
+   "code": "E632",
+   "ins": "632",
+   "name": "Dipotassium inosinate",
+   "classes": []
+  },
+  "E633": {
+   "code": "E633",
+   "ins": "633",
+   "name": "Calcium inosinate",
+   "classes": []
+  },
+  "E634": {
+   "code": "E634",
+   "ins": "634",
+   "name": "Calcium 5'-ribonucleotide",
+   "classes": []
+  },
+  "E635": {
+   "code": "E635",
+   "ins": "635",
+   "name": "Disodium 5'-ribonucleotide",
+   "classes": []
+  },
+  "E636": {
+   "code": "E636",
+   "ins": "636",
+   "name": "Maltol",
+   "classes": []
+  },
+  "E637": {
+   "code": "E637",
+   "ins": "637",
+   "name": "Ethyl maltol",
+   "classes": []
+  },
+  "E638": {
+   "code": "E638",
+   "ins": "638",
+   "name": "E638",
+   "classes": []
+  },
+  "E369": {
+   "code": "E369",
+   "ins": "369",
+   "name": "Alanin",
+   "classes": []
+  },
+  "E640": {
+   "code": "E640",
+   "ins": "640",
+   "name": "Glycine and its sodium salt",
+   "classes": []
+  },
+  "E640(i)": {
+   "code": "E640(i)",
+   "ins": "640(i)",
+   "name": "Glycine",
+   "classes": []
+  },
+  "E640(ii)": {
+   "code": "E640(ii)",
+   "ins": "640(ii)",
+   "name": "Sodiumglycinate",
+   "classes": []
+  },
+  "E641": {
+   "code": "E641",
+   "ins": "641",
+   "name": "Leucine",
+   "classes": []
+  },
+  "E642": {
+   "code": "E642",
+   "ins": "642",
+   "name": "E642",
+   "classes": []
+  },
+  "E650": {
+   "code": "E650",
+   "ins": "650",
+   "name": "Zinc acetate",
+   "classes": []
+  },
+  "E710": {
+   "code": "E710",
+   "ins": "710",
+   "name": "Spiramycin",
+   "classes": []
+  },
+  "E713": {
+   "code": "E713",
+   "ins": "713",
+   "name": "Tylosin",
+   "classes": []
+  },
+  "E900": {
+   "code": "E900",
+   "ins": "900",
+   "name": "Dimethylpolysiloxane and Methylphenylpolysiloxane",
+   "classes": []
+  },
+  "E900a": {
+   "code": "E900a",
+   "ins": "900a",
+   "name": "Dimethyl polysiloxane",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E900b": {
+   "code": "E900b",
+   "ins": "900b",
+   "name": "Methylphenylpolysiloxane",
+   "classes": []
+  },
+  "E901": {
+   "code": "E901",
+   "ins": "901",
+   "name": "white and yellow beeswax",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E902": {
+   "code": "E902",
+   "ins": "902",
+   "name": "Candelilla wax",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "thickener"
+   ]
+  },
+  "E903": {
+   "code": "E903",
+   "ins": "903",
+   "name": "Carnauba wax",
+   "classes": [
+    "carrier"
+   ]
+  },
+  "E904": {
+   "code": "E904",
+   "ins": "904",
+   "name": "Shellac",
+   "classes": []
+  },
+  "E905": {
+   "code": "E905",
+   "ins": "905",
+   "name": "Synthetic wax",
+   "classes": []
+  },
+  "E905a": {
+   "code": "E905a",
+   "ins": "905a",
+   "name": "mineral oil",
+   "classes": []
+  },
+  "E905b": {
+   "code": "E905b",
+   "ins": "905b",
+   "name": "petroleum jelly",
+   "classes": []
+  },
+  "E905c": {
+   "code": "E905c",
+   "ins": "905c",
+   "name": "Petroleum wax",
+   "classes": []
+  },
+  "E905c(i)": {
+   "code": "E905c(i)",
+   "ins": "905c(i)",
+   "name": "Microcrystalline wax",
+   "classes": []
+  },
+  "E905c(ii)": {
+   "code": "E905c(ii)",
+   "ins": "905c(ii)",
+   "name": "Paraffin wax",
+   "classes": []
+  },
+  "E905d": {
+   "code": "E905d",
+   "ins": "905d",
+   "name": "Mineral oil high viscosity",
+   "classes": []
+  },
+  "E905e": {
+   "code": "E905e",
+   "ins": "905e",
+   "name": "Mineral oil medium viscosity",
+   "classes": []
+  },
+  "E905f": {
+   "code": "E905f",
+   "ins": "905f",
+   "name": "Mineral oil medium and low viscosity class II",
+   "classes": []
+  },
+  "E905g": {
+   "code": "E905g",
+   "ins": "905g",
+   "name": "Mineral oil medium and low viscosity class III",
+   "classes": []
+  },
+  "E906": {
+   "code": "E906",
+   "ins": "906",
+   "name": "Benzoin resin",
+   "classes": []
+  },
+  "E907": {
+   "code": "E907",
+   "ins": "907",
+   "name": "Hydrogenated poly-1-decene",
+   "classes": []
+  },
+  "E908": {
+   "code": "E908",
+   "ins": "908",
+   "name": "Rice bran wax",
+   "classes": []
+  },
+  "E909": {
+   "code": "E909",
+   "ins": "909",
+   "name": "Spermaceti",
+   "classes": []
+  },
+  "E910": {
+   "code": "E910",
+   "ins": "910",
+   "name": "Wax ester",
+   "classes": []
+  },
+  "E911": {
+   "code": "E911",
+   "ins": "911",
+   "name": "Fatty acid methyl ester",
+   "classes": []
+  },
+  "E912": {
+   "code": "E912",
+   "ins": "912",
+   "name": "Montanic acid esters",
+   "classes": []
+  },
+  "E913": {
+   "code": "E913",
+   "ins": "913",
+   "name": "Lanolin",
+   "classes": []
+  },
+  "E914": {
+   "code": "E914",
+   "ins": "914",
+   "name": "Oxidised polyethylene wax",
+   "classes": []
+  },
+  "E915": {
+   "code": "E915",
+   "ins": "915",
+   "name": "Esters of Colophane",
+   "classes": []
+  },
+  "E916": {
+   "code": "E916",
+   "ins": "916",
+   "name": "Calcium iodate",
+   "classes": []
+  },
+  "E917": {
+   "code": "E917",
+   "ins": "917",
+   "name": "potassium iodate",
+   "classes": []
+  },
+  "E918": {
+   "code": "E918",
+   "ins": "918",
+   "name": "Nitrogen oxides",
+   "classes": []
+  },
+  "E919": {
+   "code": "E919",
+   "ins": "919",
+   "name": "Nitrosyl chloride",
+   "classes": []
+  },
+  "E920": {
+   "code": "E920",
+   "ins": "920",
+   "name": "l-cysteine",
+   "classes": []
+  },
+  "E921": {
+   "code": "E921",
+   "ins": "921",
+   "name": "L-cysteine hydrochloride monohydrate",
+   "classes": []
+  },
+  "E922": {
+   "code": "E922",
+   "ins": "922",
+   "name": "Potassium persulfate",
+   "classes": []
+  },
+  "E923": {
+   "code": "E923",
+   "ins": "923",
+   "name": "ammonium persulfate",
+   "classes": []
+  },
+  "E924": {
+   "code": "E924",
+   "ins": "924",
+   "name": "E924",
+   "classes": []
+  },
+  "E924a": {
+   "code": "E924a",
+   "ins": "924a",
+   "name": "Potassium bromate",
+   "classes": []
+  },
+  "E924b": {
+   "code": "E924b",
+   "ins": "924b",
+   "name": "Calcium bromate",
+   "classes": []
+  },
+  "E925": {
+   "code": "E925",
+   "ins": "925",
+   "name": "Chlorine",
+   "classes": []
+  },
+  "E926": {
+   "code": "E926",
+   "ins": "926",
+   "name": "Chlorine dioxide",
+   "classes": []
+  },
+  "E927": {
+   "code": "E927",
+   "ins": "927",
+   "name": "Azodicarbonamide and Carbamide",
+   "classes": []
+  },
+  "E927a": {
+   "code": "E927a",
+   "ins": "927a",
+   "name": "Azodicarbonamide",
+   "classes": []
+  },
+  "E927b": {
+   "code": "E927b",
+   "ins": "927b",
+   "name": "Carbamide",
+   "classes": []
+  },
+  "E928": {
+   "code": "E928",
+   "ins": "928",
+   "name": "Benzole peroxide",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E929": {
+   "code": "E929",
+   "ins": "929",
+   "name": "acetone peroxide",
+   "classes": []
+  },
+  "E930": {
+   "code": "E930",
+   "ins": "930",
+   "name": "calcium peroxide",
+   "classes": []
+  },
+  "E931": {
+   "code": "E931",
+   "ins": "931",
+   "name": "E931",
+   "classes": []
+  },
+  "E932": {
+   "code": "E932",
+   "ins": "932",
+   "name": "Nitrogen oxide",
+   "classes": []
+  },
+  "E938": {
+   "code": "E938",
+   "ins": "938",
+   "name": "Argon",
+   "classes": []
+  },
+  "E939": {
+   "code": "E939",
+   "ins": "939",
+   "name": "Helium",
+   "classes": []
+  },
+  "E940": {
+   "code": "E940",
+   "ins": "940",
+   "name": "Dichlorodifluoromethane",
+   "classes": []
+  },
+  "E941": {
+   "code": "E941",
+   "ins": "941",
+   "name": "Nitrogen",
+   "classes": [
+    "propellent-gas"
+   ]
+  },
+  "E942": {
+   "code": "E942",
+   "ins": "942",
+   "name": "Nitrous oxide",
+   "classes": [
+    "antioxidant",
+    "propellent-gas"
+   ]
+  },
+  "E943a": {
+   "code": "E943a",
+   "ins": "943a",
+   "name": "Butane",
+   "classes": []
+  },
+  "E943b": {
+   "code": "E943b",
+   "ins": "943b",
+   "name": "Isobutane",
+   "classes": []
+  },
+  "E944": {
+   "code": "E944",
+   "ins": "944",
+   "name": "Propane",
+   "classes": []
+  },
+  "E945": {
+   "code": "E945",
+   "ins": "945",
+   "name": "chloropentafluoroethane",
+   "classes": []
+  },
+  "E946": {
+   "code": "E946",
+   "ins": "946",
+   "name": "octafluorocyclobutane",
+   "classes": []
+  },
+  "E948": {
+   "code": "E948",
+   "ins": "948",
+   "name": "Oxygen",
+   "classes": []
+  },
+  "E949": {
+   "code": "E949",
+   "ins": "949",
+   "name": "Hydrogen",
+   "classes": []
+  },
+  "E950": {
+   "code": "E950",
+   "ins": "950",
+   "name": "Acesulfame k",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E951": {
+   "code": "E951",
+   "ins": "951",
+   "name": "Aspartame",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E952": {
+   "code": "E952",
+   "ins": "952",
+   "name": "Cyclamic acid and its Na and Ca salts",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E952(i)": {
+   "code": "E952(i)",
+   "ins": "952(i)",
+   "name": "E952(i)",
+   "classes": []
+  },
+  "E952(ii)": {
+   "code": "E952(ii)",
+   "ins": "952(ii)",
+   "name": "Calcium cyclamate",
+   "classes": []
+  },
+  "E952(iv)": {
+   "code": "E952(iv)",
+   "ins": "952(iv)",
+   "name": "E952(iv)",
+   "classes": []
+  },
+  "E953": {
+   "code": "E953",
+   "ins": "953",
+   "name": "isomalt",
+   "classes": [
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E954": {
+   "code": "E954",
+   "ins": "954",
+   "name": "saccharin and its salts",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E954(i)": {
+   "code": "E954(i)",
+   "ins": "954(i)",
+   "name": "E954(i)",
+   "classes": []
+  },
+  "E954(ii)": {
+   "code": "E954(ii)",
+   "ins": "954(ii)",
+   "name": "Calcium saccharin",
+   "classes": []
+  },
+  "E954(iii)": {
+   "code": "E954(iii)",
+   "ins": "954(iii)",
+   "name": "Potassium saccharin",
+   "classes": []
+  },
+  "E954(iv)": {
+   "code": "E954(iv)",
+   "ins": "954(iv)",
+   "name": "E954(iv)",
+   "classes": []
+  },
+  "E955": {
+   "code": "E955",
+   "ins": "955",
+   "name": "Sucralose",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E956": {
+   "code": "E956",
+   "ins": "956",
+   "name": "Alitame",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E957": {
+   "code": "E957",
+   "ins": "957",
+   "name": "Thaumatin",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E958": {
+   "code": "E958",
+   "ins": "958",
+   "name": "Glycyrrhizin",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E959": {
+   "code": "E959",
+   "ins": "959",
+   "name": "Neohesperidine dihydrochalcone",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E960": {
+   "code": "E960",
+   "ins": "960",
+   "name": "Steviol glycosides",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E960a": {
+   "code": "E960a",
+   "ins": "960a",
+   "name": "Steviol glycosides from Stevia",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E960b": {
+   "code": "E960b",
+   "ins": "960b",
+   "name": "Rebaudioside from multiple gene donors expressed in Yarrowia lipolityca",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E960c": {
+   "code": "E960c",
+   "ins": "960c",
+   "name": "Enzymatically produced steviol glycosides",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E960d": {
+   "code": "E960d",
+   "ins": "960d",
+   "name": "Glucosylated steviol glycosides",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E961": {
+   "code": "E961",
+   "ins": "961",
+   "name": "Neotame",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E962": {
+   "code": "E962",
+   "ins": "962",
+   "name": "Salt of aspartame-acesulfame",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E963": {
+   "code": "E963",
+   "ins": "963",
+   "name": "Tagatose",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E964": {
+   "code": "E964",
+   "ins": "964",
+   "name": "Polyglycitol syrup",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E965": {
+   "code": "E965",
+   "ins": "965",
+   "name": "maltitol",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E965(i)": {
+   "code": "E965(i)",
+   "ins": "965(i)",
+   "name": "D-Maltitol",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E965(ii)": {
+   "code": "E965(ii)",
+   "ins": "965(ii)",
+   "name": "Maltitol syrup",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E966": {
+   "code": "E966",
+   "ins": "966",
+   "name": "Lactitol",
+   "classes": [
+    "emulsifier",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E967": {
+   "code": "E967",
+   "ins": "967",
+   "name": "Xylitol",
+   "classes": [
+    "emulsifier",
+    "humectant",
+    "stabiliser",
+    "sweetener",
+    "thickener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E968": {
+   "code": "E968",
+   "ins": "968",
+   "name": "Erythritol",
+   "classes": [
+    "humectant",
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": false
+  },
+  "E969": {
+   "code": "E969",
+   "ins": "969",
+   "name": "Advantame",
+   "classes": [
+    "sweetener"
+   ],
+   "non_nutritive_sweetener": true
+  },
+  "E999": {
+   "code": "E999",
+   "ins": "999",
+   "name": "Quillaia extract",
+   "classes": [
+    "emulsifier"
+   ]
+  },
+  "E999(i)": {
+   "code": "E999(i)",
+   "ins": "999(i)",
+   "name": "Quillaia extract type 1",
+   "classes": []
+  },
+  "E999(ii)": {
+   "code": "E999(ii)",
+   "ins": "999(ii)",
+   "name": "Quillaia extract type 2",
+   "classes": []
+  },
+  "E1000": {
+   "code": "E1000",
+   "ins": "1000",
+   "name": "Cholic acid",
+   "classes": []
+  },
+  "E1001": {
+   "code": "E1001",
+   "ins": "1001",
+   "name": "Choline salt",
+   "classes": []
+  },
+  "E1001(i)": {
+   "code": "E1001(i)",
+   "ins": "1001(i)",
+   "name": "Choline acetate",
+   "classes": []
+  },
+  "E1001(ii)": {
+   "code": "E1001(ii)",
+   "ins": "1001(ii)",
+   "name": "Choline carbonate",
+   "classes": []
+  },
+  "E1001(iii)": {
+   "code": "E1001(iii)",
+   "ins": "1001(iii)",
+   "name": "E1001(iii)",
+   "classes": []
+  },
+  "E1001(iv)": {
+   "code": "E1001(iv)",
+   "ins": "1001(iv)",
+   "name": "Choline citrate",
+   "classes": []
+  },
+  "E1001(v)": {
+   "code": "E1001(v)",
+   "ins": "1001(v)",
+   "name": "Choline tartrate",
+   "classes": []
+  },
+  "E1001(vi)": {
+   "code": "E1001(vi)",
+   "ins": "1001(vi)",
+   "name": "Choline lactate",
+   "classes": []
+  },
+  "E1100": {
+   "code": "E1100",
+   "ins": "1100",
+   "name": "Alpha-Amylase",
+   "classes": []
+  },
+  "E1100(i)": {
+   "code": "E1100(i)",
+   "ins": "1100(i)",
+   "name": "E1100(i)",
+   "classes": []
+  },
+  "E1100(ii)": {
+   "code": "E1100(ii)",
+   "ins": "1100(ii)",
+   "name": "E1100(ii)",
+   "classes": []
+  },
+  "E1100(iii)": {
+   "code": "E1100(iii)",
+   "ins": "1100(iii)",
+   "name": "E1100(iii)",
+   "classes": []
+  },
+  "E1100(iv)": {
+   "code": "E1100(iv)",
+   "ins": "1100(iv)",
+   "name": "alpha-Amylase from Bacillus megaterium expressed in Bacillus subtilis",
+   "classes": []
+  },
+  "E1100(v)": {
+   "code": "E1100(v)",
+   "ins": "1100(v)",
+   "name": "E1100(v)",
+   "classes": []
+  },
+  "E1100(vi)": {
+   "code": "E1100(vi)",
+   "ins": "1100(vi)",
+   "name": "E1100(vi)",
+   "classes": []
+  },
+  "E1101": {
+   "code": "E1101",
+   "ins": "1101",
+   "name": "Protease",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E1101(i)": {
+   "code": "E1101(i)",
+   "ins": "1101(i)",
+   "name": "E1101(i)",
+   "classes": []
+  },
+  "E1101(ii)": {
+   "code": "E1101(ii)",
+   "ins": "1101(ii)",
+   "name": "E1101(ii)",
+   "classes": []
+  },
+  "E1101(iii)": {
+   "code": "E1101(iii)",
+   "ins": "1101(iii)",
+   "name": "E1101(iii)",
+   "classes": []
+  },
+  "E1101(iv)": {
+   "code": "E1101(iv)",
+   "ins": "1101(iv)",
+   "name": "E1101(iv)",
+   "classes": []
+  },
+  "E1101(v)": {
+   "code": "E1101(v)",
+   "ins": "1101(v)",
+   "name": "Protease from Streptomyces fradiae",
+   "classes": []
+  },
+  "E1101(vi)": {
+   "code": "E1101(vi)",
+   "ins": "1101(vi)",
+   "name": "Proteases from Bacillus subtilis",
+   "classes": []
+  },
+  "E1102": {
+   "code": "E1102",
+   "ins": "1102",
+   "name": "Glucose oxidase",
+   "classes": [
+    "antioxidant"
+   ]
+  },
+  "E1103": {
+   "code": "E1103",
+   "ins": "1103",
+   "name": "Invertase",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E1104": {
+   "code": "E1104",
+   "ins": "1104",
+   "name": "lipase",
+   "classes": []
+  },
+  "E1105": {
+   "code": "E1105",
+   "ins": "1105",
+   "name": "Lysozyme",
+   "classes": [
+    "preservative"
+   ]
+  },
+  "E1200": {
+   "code": "E1200",
+   "ins": "1200",
+   "name": "Polydextrose",
+   "classes": [
+    "humectant",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1201": {
+   "code": "E1201",
+   "ins": "1201",
+   "name": "Polyvinylpyrrolidone",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1202": {
+   "code": "E1202",
+   "ins": "1202",
+   "name": "Polyvinylpolypyrrolidone",
+   "classes": [
+    "stabiliser"
+   ]
+  },
+  "E1203": {
+   "code": "E1203",
+   "ins": "1203",
+   "name": "Polyvinyl alcohol",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E1204": {
+   "code": "E1204",
+   "ins": "1204",
+   "name": "Pullulan",
+   "classes": [
+    "thickener"
+   ]
+  },
+  "E1205": {
+   "code": "E1205",
+   "ins": "1205",
+   "name": "Basic methacrylate copolymer",
+   "classes": []
+  },
+  "E1206": {
+   "code": "E1206",
+   "ins": "1206",
+   "name": "Neutral methacrylate copolymer",
+   "classes": []
+  },
+  "E1207": {
+   "code": "E1207",
+   "ins": "1207",
+   "name": "Anionic methacrylate copolymer",
+   "classes": []
+  },
+  "E1208": {
+   "code": "E1208",
+   "ins": "1208",
+   "name": "Polyvinylpyrrolidone-vinyl acetate copolymer",
+   "classes": []
+  },
+  "E1209": {
+   "code": "E1209",
+   "ins": "1209",
+   "name": "Polyvinyl alcohol-polyethylene glycol-graft-co-polymer",
+   "classes": []
+  },
+  "E1210": {
+   "code": "E1210",
+   "ins": "1210",
+   "name": "Carbomer",
+   "classes": []
+  },
+  "E1400": {
+   "code": "E1400",
+   "ins": "1400",
+   "name": "Dextrin",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1401": {
+   "code": "E1401",
+   "ins": "1401",
+   "name": "Acid-treated modified starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1402": {
+   "code": "E1402",
+   "ins": "1402",
+   "name": "Alkaline modified starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1403": {
+   "code": "E1403",
+   "ins": "1403",
+   "name": "Bleached starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1404": {
+   "code": "E1404",
+   "ins": "1404",
+   "name": "Oxidised starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1405": {
+   "code": "E1405",
+   "ins": "1405",
+   "name": "Enzyme treated starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1410": {
+   "code": "E1410",
+   "ins": "1410",
+   "name": "Monostarch phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1411": {
+   "code": "E1411",
+   "ins": "1411",
+   "name": "Distarch glycerol",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1412": {
+   "code": "E1412",
+   "ins": "1412",
+   "name": "Distarch phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1413": {
+   "code": "E1413",
+   "ins": "1413",
+   "name": "Phosphated distarch phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1414": {
+   "code": "E1414",
+   "ins": "1414",
+   "name": "Acetylated distarch phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1420": {
+   "code": "E1420",
+   "ins": "1420",
+   "name": "Acetylated starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1421": {
+   "code": "E1421",
+   "ins": "1421",
+   "name": "mono starch acetate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1422": {
+   "code": "E1422",
+   "ins": "1422",
+   "name": "Acetylated distarch adipate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1423": {
+   "code": "E1423",
+   "ins": "1423",
+   "name": "Acetylated distarch glycerol",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1430": {
+   "code": "E1430",
+   "ins": "1430",
+   "name": "Distarch glycerine",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1440": {
+   "code": "E1440",
+   "ins": "1440",
+   "name": "Hydroxypropyl starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1441": {
+   "code": "E1441",
+   "ins": "1441",
+   "name": "Hydroxy propyl distarch glycerine",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1442": {
+   "code": "E1442",
+   "ins": "1442",
+   "name": "Hydroxypropyl distarch phosphate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1443": {
+   "code": "E1443",
+   "ins": "1443",
+   "name": "Hydroxy propyl distarch glycerol",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1450": {
+   "code": "E1450",
+   "ins": "1450",
+   "name": "Starch sodium octenyl succinate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1451": {
+   "code": "E1451",
+   "ins": "1451",
+   "name": "Acetylated oxidised starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1452": {
+   "code": "E1452",
+   "ins": "1452",
+   "name": "Starch aluminium octenyl succinate",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E14XX": {
+   "code": "E14XX",
+   "ins": "14XX",
+   "name": "Modified Starch",
+   "classes": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+   ]
+  },
+  "E1503": {
+   "code": "E1503",
+   "ins": "1503",
+   "name": "Castor oil",
+   "classes": [
+    "carrier",
+    "emulsifier"
+   ]
+  },
+  "E1504": {
+   "code": "E1504",
+   "ins": "1504",
+   "name": "ethyl acetate",
+   "classes": [
+    "carrier"
+   ]
+  },
+  "E1505": {
+   "code": "E1505",
+   "ins": "1505",
+   "name": "Triethyl citrate",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "sequestrant",
+    "stabiliser"
+   ]
+  },
+  "E1510": {
+   "code": "E1510",
+   "ins": "1510",
+   "name": "Ethanol",
+   "classes": []
+  },
+  "E1517": {
+   "code": "E1517",
+   "ins": "1517",
+   "name": "Glyceryl diacetate",
+   "classes": []
+  },
+  "E1518": {
+   "code": "E1518",
+   "ins": "1518",
+   "name": "Glyceryl triacetate",
+   "classes": [
+    "carrier",
+    "emulsifier",
+    "humectant"
+   ]
+  },
+  "E1519": {
+   "code": "E1519",
+   "ins": "1519",
+   "name": "Benzyl alcohol",
+   "classes": []
+  },
+  "E1520": {
+   "code": "E1520",
+   "ins": "1520",
+   "name": "Propylene glycol",
+   "classes": [
+    "emulsifier",
+    "humectant"
+   ]
+  },
+  "E1521": {
+   "code": "E1521",
+   "ins": "1521",
+   "name": "Polyethylene glycol",
+   "classes": []
+  }
+ }
+}
