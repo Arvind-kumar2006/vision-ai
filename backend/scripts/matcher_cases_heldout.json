@@ -1,0 +1,743 @@
+{
+ "_about": "Held-out set generated 2026-11-17 AFTER the first matcher changes; not used to write rules. Strength = that of the brand's shortest single-ingredient product. Misspellings are random 1-character OCR-style edits (seed 7); some may turn a name into a different real brand.",
+ "cases": [
+  {
+   "written": "Sompraz",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Sompraz",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs SOMPRAZ",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Nexpro",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Ncxpro",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ta6 NEXPRO",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Okacet",
+   "strength": "10mg",
+   "ingredient": "cetirizine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Okaccet",
+   "strength": "10mg",
+   "ingredient": "cetirizine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tad OKACET",
+   "strength": "10mg",
+   "ingredient": "cetirizine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Mox",
+   "strength": "125mg",
+   "ingredient": "amoxycillin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "T: MOX",
+   "strength": "125mg",
+   "ingredient": "amoxycillin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Cefakind",
+   "strength": "125mg",
+   "ingredient": "cefuroxime",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Ccfakind",
+   "strength": "125mg",
+   "ingredient": "cefuroxime",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs CEFAKIND",
+   "strength": "125mg",
+   "ingredient": "cefuroxime",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Oflox",
+   "strength": "200mg",
+   "ingredient": "ofloxacin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Ofiox",
+   "strength": "200mg",
+   "ingredient": "ofloxacin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: OFLOX",
+   "strength": "200mg",
+   "ingredient": "ofloxacin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Norflox",
+   "strength": "0.30mg",
+   "ingredient": "norfloxacin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Noorflox",
+   "strength": "0.30mg",
+   "ingredient": "norfloxacin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs NORFLOX",
+   "strength": "0.30mg",
+   "ingredient": "norfloxacin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Rantac",
+   "strength": "150mg",
+   "ingredient": "ranitidine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Raantac",
+   "strength": "150mg",
+   "ingredient": "ranitidine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ta6 RANTAC",
+   "strength": "150mg",
+   "ingredient": "ranitidine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Aciloc",
+   "strength": "25mg",
+   "ingredient": "ranitidine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Aciiloc",
+   "strength": "25mg",
+   "ingredient": "ranitidine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tad ACILOC",
+   "strength": "25mg",
+   "ingredient": "ranitidine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Meftal",
+   "strength": "500mg",
+   "ingredient": "mefenamic",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Meftol",
+   "strength": "500mg",
+   "ingredient": "mefenamic",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: MEFTAL",
+   "strength": "500mg",
+   "ingredient": "mefenamic",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Drotin",
+   "strength": "40mg",
+   "ingredient": "drotaverine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Drrotin",
+   "strength": "40mg",
+   "ingredient": "drotaverine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tub DROTIN",
+   "strength": "40mg",
+   "ingredient": "drotaverine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Cyclopam",
+   "strength": "10mg",
+   "ingredient": "dicyclomine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Cycopam",
+   "strength": "10mg",
+   "ingredient": "dicyclomine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tub CYCLOPAM",
+   "strength": "10mg",
+   "ingredient": "dicyclomine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Buscopan",
+   "strength": "10mg",
+   "ingredient": "hyoscine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Buscopan",
+   "strength": "10mg",
+   "ingredient": "hyoscine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tab. BUSCOPAN",
+   "strength": "10mg",
+   "ingredient": "hyoscine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Glimy",
+   "strength": "1mg",
+   "ingredient": "glimepiride",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Glimmy",
+   "strength": "1mg",
+   "ingredient": "glimepiride",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tub GLIMY",
+   "strength": "1mg",
+   "ingredient": "glimepiride",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Amaryl",
+   "strength": "1mg",
+   "ingredient": "glimepiride",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Ammaryl",
+   "strength": "1mg",
+   "ingredient": "glimepiride",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: AMARYL",
+   "strength": "1mg",
+   "ingredient": "glimepiride",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Galvus",
+   "strength": "50mg",
+   "ingredient": "vildagliptin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Galvus",
+   "strength": "50mg",
+   "ingredient": "vildagliptin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ta6 GALVUS",
+   "strength": "50mg",
+   "ingredient": "vildagliptin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Losar",
+   "strength": "50mg",
+   "ingredient": "losartan",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Losor",
+   "strength": "50mg",
+   "ingredient": "losartan",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: LOSAR",
+   "strength": "50mg",
+   "ingredient": "losartan",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Repace",
+   "strength": "50mg",
+   "ingredient": "losartan",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Repacce",
+   "strength": "50mg",
+   "ingredient": "losartan",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs REPACE",
+   "strength": "50mg",
+   "ingredient": "losartan",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Concor",
+   "strength": "5mg",
+   "ingredient": "bisoprolol",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Conor",
+   "strength": "5mg",
+   "ingredient": "bisoprolol",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ia6 CONCOR",
+   "strength": "5mg",
+   "ingredient": "bisoprolol",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Metolar",
+   "strength": "25mg",
+   "ingredient": "metoprolol",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Metlar",
+   "strength": "25mg",
+   "ingredient": "metoprolol",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: METOLAR",
+   "strength": "25mg",
+   "ingredient": "metoprolol",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Storvas",
+   "strength": "5mg",
+   "ingredient": "atorvastatin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Stoorvas",
+   "strength": "5mg",
+   "ingredient": "atorvastatin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: STORVAS",
+   "strength": "5mg",
+   "ingredient": "atorvastatin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Lipvas",
+   "strength": "10mg",
+   "ingredient": "atorvastatin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Liipvas",
+   "strength": "10mg",
+   "ingredient": "atorvastatin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tab. LIPVAS",
+   "strength": "10mg",
+   "ingredient": "atorvastatin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Arkamin",
+   "strength": "100mcg",
+   "ingredient": "clonidine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Arkamn",
+   "strength": "100mcg",
+   "ingredient": "clonidine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Cap. ARKAMIN",
+   "strength": "100mcg",
+   "ingredient": "clonidine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Nitrocontin",
+   "strength": "2.6mg",
+   "ingredient": "nitroglycerin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Nitroconin",
+   "strength": "2.6mg",
+   "ingredient": "nitroglycerin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ta6 NITROCONTIN",
+   "strength": "2.6mg",
+   "ingredient": "nitroglycerin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Sorbitrate",
+   "strength": "5mg",
+   "ingredient": "isosorbide",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Sorrbitrate",
+   "strength": "5mg",
+   "ingredient": "isosorbide",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs SORBITRATE",
+   "strength": "5mg",
+   "ingredient": "isosorbide",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Levipil",
+   "strength": "100mg",
+   "ingredient": "levetiracetam",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Leipil",
+   "strength": "100mg",
+   "ingredient": "levetiracetam",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tub LEVIPIL",
+   "strength": "100mg",
+   "ingredient": "levetiracetam",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Eptoin",
+   "strength": "100mg",
+   "ingredient": "phenytoin",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Epton",
+   "strength": "100mg",
+   "ingredient": "phenytoin",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tad EPTOIN",
+   "strength": "100mg",
+   "ingredient": "phenytoin",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Tegretol",
+   "strength": "100mg",
+   "ingredient": "carbamazepine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Tegretal",
+   "strength": "100mg",
+   "ingredient": "carbamazepine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Cap. TEGRETOL",
+   "strength": "100mg",
+   "ingredient": "carbamazepine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Valparin",
+   "strength": "200mg",
+   "ingredient": "valproate",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Valpparin",
+   "strength": "200mg",
+   "ingredient": "valproate",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Cap. VALPARIN",
+   "strength": "200mg",
+   "ingredient": "valproate",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Oleanz",
+   "strength": "5mg",
+   "ingredient": "olanzapine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Oleannz",
+   "strength": "5mg",
+   "ingredient": "olanzapine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ia6 OLEANZ",
+   "strength": "5mg",
+   "ingredient": "olanzapine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Risdone",
+   "strength": "1mg",
+   "ingredient": "risperidone",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Rlsdone",
+   "strength": "1mg",
+   "ingredient": "risperidone",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tab. RISDONE",
+   "strength": "1mg",
+   "ingredient": "risperidone",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Fluvoxin",
+   "strength": "50mg",
+   "ingredient": "fluvoxamine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Fluvooxin",
+   "strength": "50mg",
+   "ingredient": "fluvoxamine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ta6 FLUVOXIN",
+   "strength": "50mg",
+   "ingredient": "fluvoxamine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Flunil",
+   "strength": "20mg",
+   "ingredient": "fluoxetine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Fllunil",
+   "strength": "20mg",
+   "ingredient": "fluoxetine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tab. FLUNIL",
+   "strength": "20mg",
+   "ingredient": "fluoxetine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Alprax",
+   "strength": "0.25mg",
+   "ingredient": "alprazolam",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Alprx",
+   "strength": "0.25mg",
+   "ingredient": "alprazolam",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs ALPRAX",
+   "strength": "0.25mg",
+   "ingredient": "alprazolam",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Restyl",
+   "strength": "1mg",
+   "ingredient": "alprazolam",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Resfyl",
+   "strength": "1mg",
+   "ingredient": "alprazolam",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ia6 RESTYL",
+   "strength": "1mg",
+   "ingredient": "alprazolam",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Dazit",
+   "strength": "10mg",
+   "ingredient": "desloratadine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Dazit",
+   "strength": "10mg",
+   "ingredient": "desloratadine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ta6 DAZIT",
+   "strength": "10mg",
+   "ingredient": "desloratadine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Atarax",
+   "strength": "6mg",
+   "ingredient": "hydroxyzine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Atarox",
+   "strength": "6mg",
+   "ingredient": "hydroxyzine",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: ATARAX",
+   "strength": "6mg",
+   "ingredient": "hydroxyzine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Avil",
+   "strength": "25mg",
+   "ingredient": "pheniramine",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Tab. AVIL",
+   "strength": "25mg",
+   "ingredient": "pheniramine",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Neksium",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Nekksium",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "T: NEKSIUM",
+   "strength": "40mg",
+   "ingredient": "esomeprazole",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Pacimol",
+   "strength": "100mg",
+   "ingredient": "paracetamol",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Paciol",
+   "strength": "100mg",
+   "ingredient": "paracetamol",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Ia6 PACIMOL",
+   "strength": "100mg",
+   "ingredient": "paracetamol",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Nise",
+   "strength": "100mg",
+   "ingredient": "nimesulide",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Ta6 NISE",
+   "strength": "100mg",
+   "ingredient": "nimesulide",
+   "kind": "heldout_prefix"
+  },
+  {
+   "written": "Brufen",
+   "strength": "400mg",
+   "ingredient": "ibuprofen",
+   "kind": "heldout_clean"
+  },
+  {
+   "written": "Brfen",
+   "strength": "400mg",
+   "ingredient": "ibuprofen",
+   "kind": "heldout_misspelt"
+  },
+  {
+   "written": "Tbs BRUFEN",
+   "strength": "400mg",
+   "ingredient": "ibuprofen",
+   "kind": "heldout_prefix"
+  }
+ ]
+}

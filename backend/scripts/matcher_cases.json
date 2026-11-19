@@ -1,0 +1,725 @@
+{
+ "_about": "Medicine-name matcher benchmark: what the OCR/AI might hand the matcher -> the ingredient the right product must contain (null = must not be shown as Matched / Known brand). Brands and ingredients were checked against data/medicines/updated_indian_medicine_data.csv on 2026-11-17; misspellings are synthetic OCR-style errors. No patient data. Run: venv/bin/python scripts/eval_matcher.py Shelcal and Becosules are not in the dataset but are in data/medicines/known_brands.json.",
+ "cases": [
+  {
+   "written": "Tab Dolo 650",
+   "strength": null,
+   "ingredient": "paracetamol",
+   "kind": "clean"
+  },
+  {
+   "written": "Crocin",
+   "strength": "500mg",
+   "ingredient": "paracetamol",
+   "kind": "clean"
+  },
+  {
+   "written": "Tab Pan 40",
+   "strength": null,
+   "ingredient": "pantoprazole",
+   "kind": "clean"
+  },
+  {
+   "written": "Pan D",
+   "strength": null,
+   "ingredient": "domperidone",
+   "kind": "clean"
+  },
+  {
+   "written": "Pantocid",
+   "strength": "40mg",
+   "ingredient": "pantoprazole",
+   "kind": "clean"
+  },
+  {
+   "written": "Razo",
+   "strength": "20mg",
+   "ingredient": "rabeprazole",
+   "kind": "clean"
+  },
+  {
+   "written": "Omez",
+   "strength": "20mg",
+   "ingredient": "omeprazole",
+   "kind": "clean"
+  },
+  {
+   "written": "Augmentin 625 Duo",
+   "strength": null,
+   "ingredient": "amoxycillin",
+   "kind": "clean"
+  },
+  {
+   "written": "Azithral",
+   "strength": "500mg",
+   "ingredient": "azithromycin",
+   "kind": "clean"
+  },
+  {
+   "written": "Azee",
+   "strength": "500mg",
+   "ingredient": "azithromycin",
+   "kind": "clean"
+  },
+  {
+   "written": "Cetzine",
+   "strength": "10mg",
+   "ingredient": "cetirizine",
+   "kind": "clean"
+  },
+  {
+   "written": "Allegra",
+   "strength": "120mg",
+   "ingredient": "fexofenadine",
+   "kind": "clean"
+  },
+  {
+   "written": "Montair LC",
+   "strength": null,
+   "ingredient": "montelukast",
+   "kind": "clean"
+  },
+  {
+   "written": "Levocet",
+   "strength": "5mg",
+   "ingredient": "levocetirizine",
+   "kind": "clean"
+  },
+  {
+   "written": "Zerodol PT",
+   "strength": null,
+   "ingredient": "aceclofenac",
+   "kind": "clean"
+  },
+  {
+   "written": "Zerodol SP",
+   "strength": null,
+   "ingredient": "serratiopeptidase",
+   "kind": "clean"
+  },
+  {
+   "written": "Combiflam",
+   "strength": null,
+   "ingredient": "ibuprofen",
+   "kind": "clean"
+  },
+  {
+   "written": "Ultracet",
+   "strength": null,
+   "ingredient": "tramadol",
+   "kind": "clean"
+  },
+  {
+   "written": "Metrogyl",
+   "strength": "400mg",
+   "ingredient": "metronidazole",
+   "kind": "clean"
+  },
+  {
+   "written": "Flagyl",
+   "strength": "400mg",
+   "ingredient": "metronidazole",
+   "kind": "clean"
+  },
+  {
+   "written": "Ciplox",
+   "strength": "500mg",
+   "ingredient": "ciprofloxacin",
+   "kind": "clean"
+  },
+  {
+   "written": "Taxim O",
+   "strength": "200mg",
+   "ingredient": "cefixime",
+   "kind": "clean"
+  },
+  {
+   "written": "Zifi",
+   "strength": "200mg",
+   "ingredient": "cefixime",
+   "kind": "clean"
+  },
+  {
+   "written": "Monocef",
+   "strength": "1g",
+   "ingredient": "ceftriaxone",
+   "kind": "clean"
+  },
+  {
+   "written": "Phexin",
+   "strength": "500mg",
+   "ingredient": "cefalexin",
+   "kind": "clean"
+  },
+  {
+   "written": "Glycomet",
+   "strength": "500mg",
+   "ingredient": "metformin",
+   "kind": "clean"
+  },
+  {
+   "written": "Janumet",
+   "strength": null,
+   "ingredient": "sitagliptin",
+   "kind": "clean"
+  },
+  {
+   "written": "Amlong",
+   "strength": "5mg",
+   "ingredient": "amlodipine",
+   "kind": "clean"
+  },
+  {
+   "written": "Telma",
+   "strength": "40mg",
+   "ingredient": "telmisartan",
+   "kind": "clean"
+  },
+  {
+   "written": "Ecosprin",
+   "strength": "75mg",
+   "ingredient": "aspirin",
+   "kind": "clean"
+  },
+  {
+   "written": "Ecosprin AV",
+   "strength": null,
+   "ingredient": "atorvastatin",
+   "kind": "clean"
+  },
+  {
+   "written": "Atorva",
+   "strength": "10mg",
+   "ingredient": "atorvastatin",
+   "kind": "clean"
+  },
+  {
+   "written": "Rosuvas",
+   "strength": "10mg",
+   "ingredient": "rosuvastatin",
+   "kind": "clean"
+  },
+  {
+   "written": "Thyronorm",
+   "strength": "50mcg",
+   "ingredient": "thyroxine",
+   "kind": "clean"
+  },
+  {
+   "written": "Eltroxin",
+   "strength": "50mcg",
+   "ingredient": "thyroxine",
+   "kind": "clean"
+  },
+  {
+   "written": "Serta",
+   "strength": "50mg",
+   "ingredient": "sertraline",
+   "kind": "clean"
+  },
+  {
+   "written": "Qutipin",
+   "strength": "100mg",
+   "ingredient": "quetiapine",
+   "kind": "clean"
+  },
+  {
+   "written": "Ativan",
+   "strength": "2mg",
+   "ingredient": "lorazepam",
+   "kind": "clean"
+  },
+  {
+   "written": "Rivotril",
+   "strength": "0.5mg",
+   "ingredient": "clonazepam",
+   "kind": "clean"
+  },
+  {
+   "written": "Lonazep",
+   "strength": "0.5mg",
+   "ingredient": "clonazepam",
+   "kind": "clean"
+  },
+  {
+   "written": "Zocalm",
+   "strength": "5mg",
+   "ingredient": "zolpidem",
+   "kind": "clean"
+  },
+  {
+   "written": "Prothiaden",
+   "strength": "75mg",
+   "ingredient": "dosulepin",
+   "kind": "clean"
+  },
+  {
+   "written": "Sizodon Plus",
+   "strength": null,
+   "ingredient": "risperidone",
+   "kind": "clean"
+  },
+  {
+   "written": "Nexito",
+   "strength": "10mg",
+   "ingredient": "escitalopram",
+   "kind": "clean"
+  },
+  {
+   "written": "Emeset",
+   "strength": "4mg",
+   "ingredient": "ondansetron",
+   "kind": "clean"
+  },
+  {
+   "written": "Ondem",
+   "strength": "4mg",
+   "ingredient": "ondansetron",
+   "kind": "clean"
+  },
+  {
+   "written": "Domstal",
+   "strength": "10mg",
+   "ingredient": "domperidone",
+   "kind": "clean"
+  },
+  {
+   "written": "Duphalac",
+   "strength": null,
+   "ingredient": "lactulose",
+   "kind": "clean"
+  },
+  {
+   "written": "Udiliv",
+   "strength": "300mg",
+   "ingredient": "ursodeoxycholic",
+   "kind": "clean"
+  },
+  {
+   "written": "Voveran",
+   "strength": "50mg",
+   "ingredient": "diclofenac",
+   "kind": "clean"
+  },
+  {
+   "written": "Hifenac",
+   "strength": "100mg",
+   "ingredient": "aceclofenac",
+   "kind": "clean"
+  },
+  {
+   "written": "Betadine",
+   "strength": null,
+   "ingredient": "povidone",
+   "kind": "clean"
+  },
+  {
+   "written": "Deriphyllin",
+   "strength": null,
+   "ingredient": "etofylline",
+   "kind": "clean"
+  },
+  {
+   "written": "Asthalin",
+   "strength": null,
+   "ingredient": "salbutamol",
+   "kind": "clean"
+  },
+  {
+   "written": "Budecort",
+   "strength": null,
+   "ingredient": "budesonide",
+   "kind": "clean"
+  },
+  {
+   "written": "Mucinac",
+   "strength": "600mg",
+   "ingredient": "acetylcysteine",
+   "kind": "clean"
+  },
+  {
+   "written": "Ivermectol",
+   "strength": "12mg",
+   "ingredient": "ivermectin",
+   "kind": "clean"
+  },
+  {
+   "written": "Fabiflu",
+   "strength": "200mg",
+   "ingredient": "favipiravir",
+   "kind": "clean"
+  },
+  {
+   "written": "HCQS",
+   "strength": "200mg",
+   "ingredient": "hydroxychloroquine",
+   "kind": "clean"
+  },
+  {
+   "written": "Wysolone",
+   "strength": "10mg",
+   "ingredient": "prednisolone",
+   "kind": "clean"
+  },
+  {
+   "written": "Dexona",
+   "strength": "0.5mg",
+   "ingredient": "dexamethasone",
+   "kind": "clean"
+  },
+  {
+   "written": "Lasix",
+   "strength": "40mg",
+   "ingredient": "furosemide",
+   "kind": "clean"
+  },
+  {
+   "written": "Aldactone",
+   "strength": "25mg",
+   "ingredient": "spironolactone",
+   "kind": "clean"
+  },
+  {
+   "written": "Clopilet",
+   "strength": "75mg",
+   "ingredient": "clopidogrel",
+   "kind": "clean"
+  },
+  {
+   "written": "Stamlo",
+   "strength": "5mg",
+   "ingredient": "amlodipine",
+   "kind": "clean"
+  },
+  {
+   "written": "Cilacar",
+   "strength": "10mg",
+   "ingredient": "cilnidipine",
+   "kind": "clean"
+  },
+  {
+   "written": "Gabapin",
+   "strength": "300mg",
+   "ingredient": "gabapentin",
+   "kind": "clean"
+  },
+  {
+   "written": "Folvite",
+   "strength": "5mg",
+   "ingredient": "folic",
+   "kind": "clean"
+  },
+  {
+   "written": "Clonszepam",
+   "strength": "0.5mg",
+   "ingredient": "clonazepam",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Pantocld",
+   "strength": "40mg",
+   "ingredient": "pantoprazole",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Azithrall",
+   "strength": "500mg",
+   "ingredient": "azithromycin",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Montalr LC",
+   "strength": null,
+   "ingredient": "montelukast",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Glycomct",
+   "strength": "500mg",
+   "ingredient": "metformin",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Thyronrm",
+   "strength": "50mcg",
+   "ingredient": "thyroxine",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Augmentn 625",
+   "strength": null,
+   "ingredient": "clavulanic",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Qutlpin",
+   "strength": "100mg",
+   "ingredient": "quetiapine",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Rivotil",
+   "strength": "0.5mg",
+   "ingredient": "clonazepam",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Dothepin",
+   "strength": "75mg",
+   "ingredient": "dosulepin",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Ativen",
+   "strength": "2mg",
+   "ingredient": "lorazepam",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Zerodal PT",
+   "strength": null,
+   "ingredient": "aceclofenac",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Metrogyi",
+   "strength": "400mg",
+   "ingredient": "metronidazole",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Levocit",
+   "strength": "5mg",
+   "ingredient": "levocetirizine",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Telrna",
+   "strength": "40mg",
+   "ingredient": "telmisartan",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Phexim",
+   "strength": "500mg",
+   "ingredient": "cefalexin",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Rosuvaz",
+   "strength": "10mg",
+   "ingredient": "rosuvastatin",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Emesel",
+   "strength": "4mg",
+   "ingredient": "ondansetron",
+   "kind": "ocr_misspelt"
+  },
+  {
+   "written": "Td SERTA",
+   "strength": "50mg",
+   "ingredient": "sertraline",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Tob Dolo 650",
+   "strength": null,
+   "ingredient": "paracetamol",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "7ab Pan 40",
+   "strength": null,
+   "ingredient": "pantoprazole",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "T. Razo",
+   "strength": "20mg",
+   "ingredient": "rabeprazole",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "C. Phexin",
+   "strength": "500mg",
+   "ingredient": "cefalexin",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Cap Omez",
+   "strength": "20mg",
+   "ingredient": "omeprazole",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Tb Telma",
+   "strength": "40mg",
+   "ingredient": "telmisartan",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Tah Glycomet",
+   "strength": "500mg",
+   "ingredient": "metformin",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "tabATivan",
+   "strength": "2mg",
+   "ingredient": "lorazepam",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Syp Looz",
+   "strength": null,
+   "ingredient": "lactulose",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Inj Monocef",
+   "strength": "1g",
+   "ingredient": "ceftriaxone",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Td Amlong",
+   "strength": "5mg",
+   "ingredient": "amlodipine",
+   "kind": "form_prefix_misread"
+  },
+  {
+   "written": "Paracetamol",
+   "strength": "500mg",
+   "ingredient": "paracetamol",
+   "kind": "generic"
+  },
+  {
+   "written": "Pantoprazole",
+   "strength": "40mg",
+   "ingredient": "pantoprazole",
+   "kind": "generic"
+  },
+  {
+   "written": "Hydroxy chloroquine",
+   "strength": "400mg",
+   "ingredient": "hydroxychloroquine",
+   "kind": "generic"
+  },
+  {
+   "written": "Clonazepam",
+   "strength": "0.5mg",
+   "ingredient": "clonazepam",
+   "kind": "generic"
+  },
+  {
+   "written": "Metformin",
+   "strength": "500mg",
+   "ingredient": "metformin",
+   "kind": "generic"
+  },
+  {
+   "written": "Amlodipine",
+   "strength": "5mg",
+   "ingredient": "amlodipine",
+   "kind": "generic"
+  },
+  {
+   "written": "Sertraline",
+   "strength": "50mg",
+   "ingredient": "sertraline",
+   "kind": "generic"
+  },
+  {
+   "written": "Ondansetron",
+   "strength": "4mg",
+   "ingredient": "ondansetron",
+   "kind": "generic"
+  },
+  {
+   "written": "Colgate Plax",
+   "strength": null,
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Oral B brush",
+   "strength": null,
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Colgate",
+   "strength": null,
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Sensodyne",
+   "strength": null,
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Listerine",
+   "strength": null,
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Stolin gum paint",
+   "strength": null,
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Shelcal",
+   "strength": "500mg",
+   "ingredient": "calcium",
+   "kind": "known_brand_list"
+  },
+  {
+   "written": "Becosules",
+   "strength": null,
+   "ingredient": "vitamin b",
+   "kind": "known_brand_list"
+  },
+  {
+   "written": "Limcee",
+   "strength": "500mg",
+   "ingredient": null,
+   "kind": "not_a_medicine_or_not_in_db"
+  },
+  {
+   "written": "Omciad",
+   "strength": "20mg",
+   "ingredient": "omeprazole",
+   "kind": "same_composition_rivals"
+  },
+  {
+   "written": "Amidtax",
+   "strength": "500mg",
+   "ingredient": "amikacin",
+   "kind": "same_composition_rivals"
+  },
+  {
+   "written": "Tab PanD",
+   "strength": "40mg",
+   "ingredient": "domperidone",
+   "kind": "joined_variant"
+  },
+  {
+   "written": "ZerodolPT",
+   "strength": null,
+   "ingredient": "aceclofenac",
+   "kind": "joined_variant"
+  },
+  {
+   "written": "MoxCV",
+   "strength": "625mg",
+   "ingredient": "clavulanic",
+   "kind": "joined_variant"
+  }
+ ]
+}
