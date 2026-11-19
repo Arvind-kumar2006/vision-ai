@@ -1,0 +1,887 @@
+{
+ "_source": "Curated list of common Indian medicine brands and generics, ported from the reference PrescriptionReader project and extended (Zincovit, Rabemac, Rablet, Electral, ORS). Used only as a FALLBACK when a name is not in the Indian Medicine Dataset; a hit is shown as 'known_brand', never 'matched'. Compositions are general (no strengths) and only filled where well established.",
+ "brands": [
+  {
+   "name": "aceclofenac",
+   "composition": "Aceclofenac"
+  },
+  {
+   "name": "actrapid",
+   "composition": null
+  },
+  {
+   "name": "alex",
+   "composition": null
+  },
+  {
+   "name": "allegra",
+   "composition": "Fexofenadine"
+  },
+  {
+   "name": "alprazolam",
+   "composition": "Alprazolam"
+  },
+  {
+   "name": "ambroxol",
+   "composition": "Ambroxol"
+  },
+  {
+   "name": "amitriptyline",
+   "composition": "Amitriptyline"
+  },
+  {
+   "name": "amlodipine",
+   "composition": "Amlodipine"
+  },
+  {
+   "name": "amoxicillin",
+   "composition": "Amoxicillin"
+  },
+  {
+   "name": "amoxyclav",
+   "composition": null
+  },
+  {
+   "name": "amphotericin",
+   "composition": "Amphotericin"
+  },
+  {
+   "name": "ampicillin",
+   "composition": "Ampicillin"
+  },
+  {
+   "name": "aripiprazole",
+   "composition": "Aripiprazole"
+  },
+  {
+   "name": "ascoril",
+   "composition": null
+  },
+  {
+   "name": "aspirin",
+   "composition": "Aspirin"
+  },
+  {
+   "name": "atenolol",
+   "composition": "Atenolol"
+  },
+  {
+   "name": "atorvastatin",
+   "composition": "Atorvastatin"
+  },
+  {
+   "name": "augmentin",
+   "composition": "Amoxicillin + clavulanic acid"
+  },
+  {
+   "name": "azithral",
+   "composition": "Azithromycin"
+  },
+  {
+   "name": "b complex",
+   "composition": "B complex"
+  },
+  {
+   "name": "bambuterol",
+   "composition": "Bambuterol"
+  },
+  {
+   "name": "becosules",
+   "composition": "Vitamin B-complex with vitamin C"
+  },
+  {
+   "name": "benadryl",
+   "composition": null
+  },
+  {
+   "name": "betnovate",
+   "composition": null
+  },
+  {
+   "name": "brimonidine",
+   "composition": "Brimonidine"
+  },
+  {
+   "name": "bromhexine",
+   "composition": "Bromhexine"
+  },
+  {
+   "name": "brufen",
+   "composition": "Ibuprofen"
+  },
+  {
+   "name": "calamine",
+   "composition": "Calamine"
+  },
+  {
+   "name": "calcirol",
+   "composition": null
+  },
+  {
+   "name": "calcium",
+   "composition": "Calcium"
+  },
+  {
+   "name": "calpol",
+   "composition": "Paracetamol"
+  },
+  {
+   "name": "carbimazole",
+   "composition": "Carbimazole"
+  },
+  {
+   "name": "cefalexin",
+   "composition": "Cefalexin"
+  },
+  {
+   "name": "cefixime",
+   "composition": "Cefixime"
+  },
+  {
+   "name": "celecoxib",
+   "composition": "Celecoxib"
+  },
+  {
+   "name": "cetrizine",
+   "composition": null
+  },
+  {
+   "name": "chlorpheniramine",
+   "composition": "Chlorpheniramine"
+  },
+  {
+   "name": "cifran",
+   "composition": "Ciprofloxacin"
+  },
+  {
+   "name": "ciplox",
+   "composition": "Ciprofloxacin"
+  },
+  {
+   "name": "ciprofloxacin",
+   "composition": "Ciprofloxacin"
+  },
+  {
+   "name": "clarithromycin",
+   "composition": "Clarithromycin"
+  },
+  {
+   "name": "clindamycin",
+   "composition": "Clindamycin"
+  },
+  {
+   "name": "clomipramine",
+   "composition": "Clomipramine"
+  },
+  {
+   "name": "clonazepam",
+   "composition": "Clonazepam"
+  },
+  {
+   "name": "clopidogrel",
+   "composition": "Clopidogrel"
+  },
+  {
+   "name": "clotrimazole",
+   "composition": "Clotrimazole"
+  },
+  {
+   "name": "cod liver oil",
+   "composition": "Cod liver oil"
+  },
+  {
+   "name": "combiflam",
+   "composition": "Ibuprofen + paracetamol"
+  },
+  {
+   "name": "corex",
+   "composition": null
+  },
+  {
+   "name": "crocin",
+   "composition": "Paracetamol"
+  },
+  {
+   "name": "desloratadine",
+   "composition": "Desloratadine"
+  },
+  {
+   "name": "dexamethasone",
+   "composition": "Dexamethasone"
+  },
+  {
+   "name": "dextromethorphan",
+   "composition": "Dextromethorphan"
+  },
+  {
+   "name": "diazepam",
+   "composition": "Diazepam"
+  },
+  {
+   "name": "diclofenac",
+   "composition": "Diclofenac"
+  },
+  {
+   "name": "digene",
+   "composition": null
+  },
+  {
+   "name": "digoxin",
+   "composition": "Digoxin"
+  },
+  {
+   "name": "diltiazem",
+   "composition": "Diltiazem"
+  },
+  {
+   "name": "disprin",
+   "composition": null
+  },
+  {
+   "name": "dolo",
+   "composition": "Paracetamol"
+  },
+  {
+   "name": "dolo 650",
+   "composition": "Paracetamol (650mg)"
+  },
+  {
+   "name": "domperidone",
+   "composition": "Domperidone"
+  },
+  {
+   "name": "doxycycline",
+   "composition": "Doxycycline"
+  },
+  {
+   "name": "electral",
+   "composition": "Oral rehydration salts (WHO formula)"
+  },
+  {
+   "name": "electrolyte",
+   "composition": "Oral rehydration salts / electrolytes"
+  },
+  {
+   "name": "eltroxin",
+   "composition": "Thyroxine (levothyroxine)"
+  },
+  {
+   "name": "enalapril",
+   "composition": "Enalapril"
+  },
+  {
+   "name": "eno",
+   "composition": null
+  },
+  {
+   "name": "erythromycin",
+   "composition": "Erythromycin"
+  },
+  {
+   "name": "escitalopram",
+   "composition": "Escitalopram"
+  },
+  {
+   "name": "esomeprazole",
+   "composition": "Esomeprazole"
+  },
+  {
+   "name": "etoricoxib",
+   "composition": "Etoricoxib"
+  },
+  {
+   "name": "famotidine",
+   "composition": "Famotidine"
+  },
+  {
+   "name": "fenofibrate",
+   "composition": "Fenofibrate"
+  },
+  {
+   "name": "fepanil",
+   "composition": null
+  },
+  {
+   "name": "fexofenadine",
+   "composition": "Fexofenadine"
+  },
+  {
+   "name": "fluconazole",
+   "composition": "Fluconazole"
+  },
+  {
+   "name": "fluoxetine",
+   "composition": "Fluoxetine"
+  },
+  {
+   "name": "folic acid",
+   "composition": "Folic acid"
+  },
+  {
+   "name": "furosemide",
+   "composition": "Furosemide"
+  },
+  {
+   "name": "fusidic acid",
+   "composition": null
+  },
+  {
+   "name": "galvus",
+   "composition": null
+  },
+  {
+   "name": "gelusil",
+   "composition": null
+  },
+  {
+   "name": "gemfibrozil",
+   "composition": "Gemfibrozil"
+  },
+  {
+   "name": "gentamicin",
+   "composition": "Gentamicin"
+  },
+  {
+   "name": "gliclazide",
+   "composition": "Gliclazide"
+  },
+  {
+   "name": "glimepiride",
+   "composition": "Glimepiride"
+  },
+  {
+   "name": "glipizide",
+   "composition": "Glipizide"
+  },
+  {
+   "name": "glucobay",
+   "composition": null
+  },
+  {
+   "name": "glycomet",
+   "composition": "Metformin"
+  },
+  {
+   "name": "grilinctus",
+   "composition": null
+  },
+  {
+   "name": "griseofulvin",
+   "composition": "Griseofulvin"
+  },
+  {
+   "name": "guaifenesin",
+   "composition": "Guaifenesin"
+  },
+  {
+   "name": "haloperidol",
+   "composition": "Haloperidol"
+  },
+  {
+   "name": "heparin",
+   "composition": "Heparin"
+  },
+  {
+   "name": "humalog",
+   "composition": null
+  },
+  {
+   "name": "hydrochlorothiazide",
+   "composition": "Hydrochlorothiazide"
+  },
+  {
+   "name": "hydrocortisone",
+   "composition": "Hydrocortisone"
+  },
+  {
+   "name": "hydroxyzine",
+   "composition": "Hydroxyzine"
+  },
+  {
+   "name": "ibuprofen",
+   "composition": "Ibuprofen"
+  },
+  {
+   "name": "imipramine",
+   "composition": "Imipramine"
+  },
+  {
+   "name": "indomethacin",
+   "composition": "Indomethacin"
+  },
+  {
+   "name": "insulin",
+   "composition": "Insulin"
+  },
+  {
+   "name": "iron",
+   "composition": "Iron"
+  },
+  {
+   "name": "isosorbide",
+   "composition": "Isosorbide"
+  },
+  {
+   "name": "itraconazole",
+   "composition": "Itraconazole"
+  },
+  {
+   "name": "januvia",
+   "composition": null
+  },
+  {
+   "name": "ketoconazole",
+   "composition": "Ketoconazole"
+  },
+  {
+   "name": "ketorolac",
+   "composition": "Ketorolac"
+  },
+  {
+   "name": "lacto calamine",
+   "composition": null
+  },
+  {
+   "name": "lansoprazole",
+   "composition": "Lansoprazole"
+  },
+  {
+   "name": "lantus",
+   "composition": null
+  },
+  {
+   "name": "latanoprost",
+   "composition": "Latanoprost"
+  },
+  {
+   "name": "levocetirizine",
+   "composition": "Levocetirizine"
+  },
+  {
+   "name": "levofloxacin",
+   "composition": "Levofloxacin"
+  },
+  {
+   "name": "levothyroxine",
+   "composition": "Levothyroxine"
+  },
+  {
+   "name": "lincomycin",
+   "composition": "Lincomycin"
+  },
+  {
+   "name": "liothyronine",
+   "composition": "Liothyronine"
+  },
+  {
+   "name": "lisinopril",
+   "composition": "Lisinopril"
+  },
+  {
+   "name": "lithium",
+   "composition": "Lithium"
+  },
+  {
+   "name": "loratadine",
+   "composition": "Loratadine"
+  },
+  {
+   "name": "lorazepam",
+   "composition": "Lorazepam"
+  },
+  {
+   "name": "losartan",
+   "composition": "Losartan"
+  },
+  {
+   "name": "magnesium",
+   "composition": "Magnesium"
+  },
+  {
+   "name": "metacin",
+   "composition": null
+  },
+  {
+   "name": "metformin",
+   "composition": "Metformin"
+  },
+  {
+   "name": "methimazole",
+   "composition": "Methimazole"
+  },
+  {
+   "name": "metoprolol",
+   "composition": "Metoprolol"
+  },
+  {
+   "name": "metronidazole",
+   "composition": "Metronidazole"
+  },
+  {
+   "name": "miconazole",
+   "composition": "Miconazole"
+  },
+  {
+   "name": "mixtard",
+   "composition": null
+  },
+  {
+   "name": "montair",
+   "composition": "Montelukast"
+  },
+  {
+   "name": "montelukast",
+   "composition": "Montelukast"
+  },
+  {
+   "name": "moxifloxacin",
+   "composition": "Moxifloxacin"
+  },
+  {
+   "name": "multivitamin",
+   "composition": "Multivitamin"
+  },
+  {
+   "name": "mupirocin",
+   "composition": "Mupirocin"
+  },
+  {
+   "name": "naproxen",
+   "composition": "Naproxen"
+  },
+  {
+   "name": "neosporin",
+   "composition": null
+  },
+  {
+   "name": "neurobion",
+   "composition": null
+  },
+  {
+   "name": "nifedipine",
+   "composition": "Nifedipine"
+  },
+  {
+   "name": "nimesulide",
+   "composition": "Nimesulide"
+  },
+  {
+   "name": "nitroglycerin",
+   "composition": "Nitroglycerin"
+  },
+  {
+   "name": "norflox",
+   "composition": "Norfloxacin"
+  },
+  {
+   "name": "novomix",
+   "composition": null
+  },
+  {
+   "name": "nystatin",
+   "composition": "Nystatin"
+  },
+  {
+   "name": "ofloxacin",
+   "composition": "Ofloxacin"
+  },
+  {
+   "name": "olanzapine",
+   "composition": "Olanzapine"
+  },
+  {
+   "name": "omega 3",
+   "composition": "Omega 3"
+  },
+  {
+   "name": "omeprazole",
+   "composition": "Omeprazole"
+  },
+  {
+   "name": "omez",
+   "composition": "Omeprazole"
+  },
+  {
+   "name": "ondansetron",
+   "composition": "Ondansetron"
+  },
+  {
+   "name": "ornidazole",
+   "composition": "Ornidazole"
+  },
+  {
+   "name": "ors",
+   "composition": "Oral rehydration salts"
+  },
+  {
+   "name": "pacimol",
+   "composition": null
+  },
+  {
+   "name": "pan 40",
+   "composition": "Pantoprazole (40mg)"
+  },
+  {
+   "name": "panderm",
+   "composition": null
+  },
+  {
+   "name": "pantop",
+   "composition": "Pantoprazole"
+  },
+  {
+   "name": "pantoprazole",
+   "composition": "Pantoprazole"
+  },
+  {
+   "name": "paracetamol",
+   "composition": "Paracetamol"
+  },
+  {
+   "name": "paracip",
+   "composition": null
+  },
+  {
+   "name": "paroxetine",
+   "composition": "Paroxetine"
+  },
+  {
+   "name": "pheniramine",
+   "composition": "Pheniramine"
+  },
+  {
+   "name": "pioglitazone",
+   "composition": "Pioglitazone"
+  },
+  {
+   "name": "piroxicam",
+   "composition": "Piroxicam"
+  },
+  {
+   "name": "pravastatin",
+   "composition": "Pravastatin"
+  },
+  {
+   "name": "prednisolone",
+   "composition": "Prednisolone"
+  },
+  {
+   "name": "propranolol",
+   "composition": "Propranolol"
+  },
+  {
+   "name": "propylthiouracil",
+   "composition": "Propylthiouracil"
+  },
+  {
+   "name": "pyrigesic",
+   "composition": null
+  },
+  {
+   "name": "quadriderm",
+   "composition": null
+  },
+  {
+   "name": "quetiapine",
+   "composition": "Quetiapine"
+  },
+  {
+   "name": "rabemac",
+   "composition": "Rabeprazole"
+  },
+  {
+   "name": "rabeprazole",
+   "composition": "Rabeprazole"
+  },
+  {
+   "name": "rablet",
+   "composition": "Rabeprazole"
+  },
+  {
+   "name": "ramipril",
+   "composition": "Ramipril"
+  },
+  {
+   "name": "ranitidine",
+   "composition": "Ranitidine"
+  },
+  {
+   "name": "razo",
+   "composition": "Rabeprazole"
+  },
+  {
+   "name": "revital",
+   "composition": null
+  },
+  {
+   "name": "risperidone",
+   "composition": "Risperidone"
+  },
+  {
+   "name": "rosuvastatin",
+   "composition": "Rosuvastatin"
+  },
+  {
+   "name": "salbutamol",
+   "composition": "Salbutamol"
+  },
+  {
+   "name": "saridon",
+   "composition": null
+  },
+  {
+   "name": "secnidazole",
+   "composition": "Secnidazole"
+  },
+  {
+   "name": "sertraline",
+   "composition": "Sertraline"
+  },
+  {
+   "name": "shelcal",
+   "composition": "Calcium carbonate + vitamin D3"
+  },
+  {
+   "name": "simethicone",
+   "composition": "Simethicone"
+  },
+  {
+   "name": "simvastatin",
+   "composition": "Simvastatin"
+  },
+  {
+   "name": "sitagliptin",
+   "composition": "Sitagliptin"
+  },
+  {
+   "name": "soframycin",
+   "composition": null
+  },
+  {
+   "name": "stamlo",
+   "composition": "Amlodipine"
+  },
+  {
+   "name": "streptokinase",
+   "composition": "Streptokinase"
+  },
+  {
+   "name": "sucralfate",
+   "composition": "Sucralfate"
+  },
+  {
+   "name": "sumo",
+   "composition": null
+  },
+  {
+   "name": "telma",
+   "composition": "Telmisartan"
+  },
+  {
+   "name": "telmisartan",
+   "composition": "Telmisartan"
+  },
+  {
+   "name": "terbinafine",
+   "composition": "Terbinafine"
+  },
+  {
+   "name": "terbutaline",
+   "composition": "Terbutaline"
+  },
+  {
+   "name": "tetracycline",
+   "composition": "Tetracycline"
+  },
+  {
+   "name": "theophylline",
+   "composition": "Theophylline"
+  },
+  {
+   "name": "thyronorm",
+   "composition": "Thyroxine (levothyroxine)"
+  },
+  {
+   "name": "thyroxine",
+   "composition": "Thyroxine"
+  },
+  {
+   "name": "timolol",
+   "composition": "Timolol"
+  },
+  {
+   "name": "tinidazole",
+   "composition": "Tinidazole"
+  },
+  {
+   "name": "tobramycin",
+   "composition": "Tobramycin"
+  },
+  {
+   "name": "tramadol",
+   "composition": "Tramadol"
+  },
+  {
+   "name": "verapamil",
+   "composition": "Verapamil"
+  },
+  {
+   "name": "vildagliptin",
+   "composition": "Vildagliptin"
+  },
+  {
+   "name": "vitamin c",
+   "composition": "Vitamin c"
+  },
+  {
+   "name": "vitamin d3",
+   "composition": "Vitamin d3"
+  },
+  {
+   "name": "vitamin e",
+   "composition": "Vitamin e"
+  },
+  {
+   "name": "voveran",
+   "composition": "Diclofenac"
+  },
+  {
+   "name": "warfarin",
+   "composition": "Warfarin"
+  },
+  {
+   "name": "zinc",
+   "composition": "Zinc"
+  },
+  {
+   "name": "zincovit",
+   "composition": "Multivitamin + multimineral with zinc"
+  },
+  {
+   "name": "zithromax",
+   "composition": null
+  },
+  {
+   "name": "zolpidem",
+   "composition": "Zolpidem"
+  },
+  {
+   "name": "zopiclone",
+   "composition": "Zopiclone"
+  }
+ ],
+ "companies": [
+  "alkem",
+  "aurobindo",
+  "cadila",
+  "cipla",
+  "dr reddy",
+  "glenmark",
+  "intas",
+  "lupin",
+  "mankind",
+  "ranbaxy",
+  "sun pharma",
+  "torrent"
+ ]
+}
