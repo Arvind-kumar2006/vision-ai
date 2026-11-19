@@ -1,0 +1,31 @@
+# Image captioning (served by the API, read by app/services/caption_service.py).
+# Pretrained Show, Attend and Tell from github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning:
+# ResNet-101 encoder, 14x14 soft attention with gating, LSTMCell decoder, COCO 2014.
+inference:
+  model: blip           # default model: blip | sat | catr (others load on first use, ?model=).
+                        # blip = most accurate on our photos; SAT remains the PRD architecture
+                        # and is available with ?model=sat. BLIP is pre-cached at deploy time.
+  weights: "weights/sat_resnet101_coco.pth"   # SAT; created by: python -m model.captioning.convert_checkpoint
+  image_size: 256       # SAT input size (image_size x image_size)
+  beam_size: 5          # default beam width (API ?beam_size= overrides, 1-10). 5 avoided
+                        # loops/vague captions that 3 produced (e.g. "a dog ... next to a dog")
+  no_repeat_ngram: 2    # forbid repeating any word pair within a caption (0 = off)
+  max_caption_len: 50   # hard cap on generated words
+
+  # CATR: ResNet-101 + transformer, COCO 2017 (github.com/saahiluppal/catr, Apache-2.0)
+  catr:
+    weights: "weights/catr_v3_coco.pth"     # release 0.2 / weight493084032.pth
+    tokenizer: "weights/catr_tokenizer"     # bert-base-uncased vocab, saved on first load
+    max_image_side: 299
+    beam_size: 3
+
+  # BLIP-base: ViT-B/16 + text decoder, COCO fine-tuned (Salesforce, BSD-3-Clause)
+  blip:
+    model_id: "Salesforce/blip-image-captioning-base"   # Hugging Face cache
+    beam_size: 3
+    max_caption_len: 30
+    # Repeat control (tested 2026-11-12 on 7 photos): no_repeat_ngram 2 + repetition_penalty 1.2
+    # stopped "sri ... sri ... sri" loops without changing good captions; no_repeat_ngram 3 let
+    # "sri sri sri" through, so the stricter 2 stays.
+    no_repeat_ngram: 2
+    repetition_penalty: 1.2
