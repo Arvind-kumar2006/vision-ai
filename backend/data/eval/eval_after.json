@@ -1,0 +1,339 @@
+{
+ "when": "2026-11-13, simplified pipelines (ADR-005)",
+ "label": {
+  "photos": 16,
+  "values_within_5pct": "106/112",
+  "accuracy": 0.9464,
+  "per_field": {
+   "energy_kcal": "16/16",
+   "sugars_g": "16/16",
+   "fat_g": "15/16",
+   "saturated_fat_g": "15/16",
+   "carbohydrate_g": "16/16",
+   "protein_g": "14/16",
+   "salt_g": "14/16"
+  },
+  "latency_ms_mean": 2996,
+  "latency_ms_p95": 5816,
+  "ai_requests": 9,
+  "ai_requests_per_photo": 0.56,
+  "notes": "RapidOCR v6-small, steps exif+resize+perspective+clahe; AI (OCR text only) for missing values",
+  "per_photo": [
+   {
+    "image": "ndl/06174988_13.jpg",
+    "latency_ms": 5816,
+    "ai_values": [
+     "fat_g",
+     "saturated_fat_g"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/7613379505774_2.jpg",
+    "latency_ms": 3699,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": false
+    }
+   },
+   {
+    "image": "ndl/2642824003775_2.jpg",
+    "latency_ms": 3169,
+    "ai_values": [
+     "protein_g",
+     "saturated_fat_g",
+     "sugars_g"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": false
+    }
+   },
+   {
+    "image": "ndl/3760027470152_1.jpg",
+    "latency_ms": 3156,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3576620008209_4.jpg",
+    "latency_ms": 3471,
+    "ai_values": [
+     "carbohydrate_g"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/5400210432861_2.jpg",
+    "latency_ms": 1761,
+    "ai_values": [
+     "energy_kj"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": false,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3760251820143_3.jpg",
+    "latency_ms": 1357,
+    "ai_values": [
+     "protein_g",
+     "salt_g",
+     "saturated_fat_g"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3760054405448_2.jpg",
+    "latency_ms": 5022,
+    "ai_values": [
+     "carbohydrate_g",
+     "fat_g",
+     "saturated_fat_g"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3266191064178_3.jpg",
+    "latency_ms": 1454,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3560071284305_2.jpg",
+    "latency_ms": 2820,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3263859892982_2.jpg",
+    "latency_ms": 6096,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": false,
+     "carbohydrate_g": true,
+     "protein_g": false,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/7610198012537_3.jpg",
+    "latency_ms": 1234,
+    "ai_values": [
+     "fat_g",
+     "salt_g"
+    ],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3425471120052_4.jpg",
+    "latency_ms": 1415,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/2910833010368_4.jpg",
+    "latency_ms": 3275,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/8437013754477_2.jpg",
+    "latency_ms": 2803,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": false,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/8901808004943_2.jpg",
+    "latency_ms": 1387,
+    "ai_values": [],
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   }
+  ]
+ },
+ "prescription_p5": {
+  "status": "ok",
+  "latency_ms": 5723,
+  "timings": {
+   "preprocess_ms": 14,
+   "ocr_ms": 4864,
+   "ai_ms": 793,
+   "match_ms": 41,
+   "total_ms": 5719
+  },
+  "ai_calls": 1,
+  "already_taking": [
+   "Ecosprin AV"
+  ],
+  "date": null,
+  "score": {
+   "medicines_found": "3/3",
+   "found": [
+    "dothepin",
+    "clonazepam",
+    "zocalm"
+   ],
+   "extra_medicines": 0,
+   "fields_correct": "5/8",
+   "already_taking_ok": true,
+   "per_medicine": [
+    {
+     "read_as": "Dothepin / Prothiaden 75mg",
+     "match": "dothepin",
+     "status": "matched",
+     "strength": "75mg",
+     "dosage": "1 tablet",
+     "frequency": "at night",
+     "checks": [],
+     "what_for": "Anxiety disorder and depression",
+     "strength_ok": true,
+     "dose_ok": true,
+     "when_ok": true
+    },
+    {
+     "read_as": "Clonazepam",
+     "match": "clonazepam",
+     "status": "known_brand",
+     "strength": null,
+     "dosage": "2 tablets",
+     "frequency": null,
+     "checks": [],
+     "what_for": "Anxiety disorder and epilepsy/Seizures",
+     "strength_ok": false,
+     "dose_ok": false,
+     "when_ok": false
+    },
+    {
+     "read_as": "Zocalm 5mg",
+     "match": "zocalm",
+     "status": "matched",
+     "strength": "5mg",
+     "dosage": null,
+     "frequency": "SOS (when needed)",
+     "checks": [],
+     "what_for": "Insomnia",
+     "strength_ok": true,
+     "dose_ok": null,
+     "when_ok": true
+    }
+   ]
+  },
+  "ai_requests_note": "1 text request per scan; this run reused the eval cache. Live run: AI 6.9 s on OpenRouter free (total 12.1 s)."
+ }
+}

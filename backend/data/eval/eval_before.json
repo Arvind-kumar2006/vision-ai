@@ -1,0 +1,292 @@
+{
+ "when": "2026-11-13, commit pre-simplification (1e7d65b)",
+ "label": {
+  "photos": 16,
+  "values_within_5pct": "109/112",
+  "accuracy": 0.9732,
+  "per_field": {
+   "energy_kcal": "16/16",
+   "sugars_g": "16/16",
+   "fat_g": "15/16",
+   "saturated_fat_g": "16/16",
+   "carbohydrate_g": "16/16",
+   "protein_g": "16/16",
+   "salt_g": "14/16"
+  },
+  "latency_ms_mean": 4170,
+  "latency_ms_p95": 8377,
+  "ai_reads": 10,
+  "ai_requests_counted": 20,
+  "notes": "Apple Vision first, vision AI for gaps (10 of 16 photos), reader cache on, Open Food Facts off",
+  "per_photo": [
+   {
+    "image": "ndl/06174988_13.jpg",
+    "latency_ms": 2302,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/7613379505774_2.jpg",
+    "latency_ms": 285,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/2642824003775_2.jpg",
+    "latency_ms": 2734,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3760027470152_1.jpg",
+    "latency_ms": 1275,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3576620008209_4.jpg",
+    "latency_ms": 530,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/5400210432861_2.jpg",
+    "latency_ms": 13880,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3760251820143_3.jpg",
+    "latency_ms": 8243,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": false
+    }
+   },
+   {
+    "image": "ndl/3760054405448_2.jpg",
+    "latency_ms": 4304,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": false,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": false
+    }
+   },
+   {
+    "image": "ndl/3266191064178_3.jpg",
+    "latency_ms": 890,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3560071284305_2.jpg",
+    "latency_ms": 281,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3263859892982_2.jpg",
+    "latency_ms": 583,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/7610198012537_3.jpg",
+    "latency_ms": 8377,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/3425471120052_4.jpg",
+    "latency_ms": 7433,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/2910833010368_4.jpg",
+    "latency_ms": 718,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/8437013754477_2.jpg",
+    "latency_ms": 7489,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   },
+   {
+    "image": "ndl/8901808004943_2.jpg",
+    "latency_ms": 7393,
+    "fields": {
+     "energy_kcal": true,
+     "sugars_g": true,
+     "fat_g": true,
+     "saturated_fat_g": true,
+     "carbohydrate_g": true,
+     "protein_g": true,
+     "salt_g": true
+    }
+   }
+  ]
+ },
+ "prescription_p5": {
+  "reader": "device_text_ai",
+  "latency_ms": 3562,
+  "ai_requests": 0,
+  "already_taking": [
+   "Ecosprin"
+  ],
+  "general_instructions": "Course: 3 months (check)",
+  "date": null,
+  "score": {
+   "medicines_found": "3/3",
+   "found": [
+    "dothepin",
+    "clonazepam",
+    "zocalm"
+   ],
+   "extra_medicines": 0,
+   "fields_correct": "4/8",
+   "already_taking_ok": true,
+   "per_medicine": [
+    {
+     "read_as": "Dothepin Protheaden 75mg",
+     "match": "dothepin",
+     "status": "matched",
+     "strength": "75mg",
+     "dosage": "1 tab",
+     "frequency": null,
+     "what_for": "Anxiety disorder and depression",
+     "strength_ok": true,
+     "dose_ok": true,
+     "when_ok": false
+    },
+    {
+     "read_as": "Clonazepam / Lonazep / Clonotril",
+     "match": "clonazepam",
+     "status": "matched",
+     "strength": null,
+     "dosage": "1 tab",
+     "frequency": null,
+     "what_for": "Anxiety disorder and epilepsy/Seizures",
+     "strength_ok": false,
+     "dose_ok": true,
+     "when_ok": false
+    },
+    {
+     "read_as": "Xocalm",
+     "match": "zocalm",
+     "status": "verify",
+     "strength": null,
+     "dosage": "1 tab",
+     "frequency": "SOS",
+     "what_for": null,
+     "strength_ok": false,
+     "dose_ok": null,
+     "when_ok": true
+    }
+   ]
+  },
+  "ai_requests_note": "0 because the text-AI answer was cached; uncached = 1 text request"
+ }
+}
