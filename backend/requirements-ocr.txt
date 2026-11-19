@@ -1,0 +1,19 @@
+# RapidOCR (PaddleOCR models on onnxruntime), pinned. Installed with --no-deps so it uses the single OpenCV
+# from requirements.txt (rapidocr itself asks for opencv-python-headless, which would be a second copy on macOS).
+#   venv/bin/python -m pip install --no-deps -r requirements-ocr.txt
+rapidocr==3.10.0
+onnxruntime==1.31.1
+pyclipper==1.4.0
+shapely==2.2.0
+omegaconf==2.4.0
+colorlog==6.12.0
+protobuf==7.36.2
+flatbuffers==25.12.19
+packaging==26.3
+six==1.17.0
+tqdm==4.70.1
+requests==2.34.2
+charset-normalizer==3.5.2
+urllib3==2.8.0
+idna==3.20
+certifi==2026.10.23
