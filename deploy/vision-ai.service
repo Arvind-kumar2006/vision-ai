@@ -1,0 +1,21 @@
+[Unit]
+Description=Vision AI Backend (FastAPI + built React app)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/vision-ai/backend
+Environment=HOST=0.0.0.0
+Environment=PORT=8000
+EnvironmentFile=-/home/ubuntu/vision-ai/backend/.env
+ExecStart=/home/ubuntu/vision-ai/backend/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
