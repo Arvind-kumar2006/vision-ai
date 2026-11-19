@@ -1,0 +1,7 @@
+venv/
+.env
+**/__pycache__/
+data/cache/
+data/eval/
+data/medicines/250k_raw/
+weights/ocr/
