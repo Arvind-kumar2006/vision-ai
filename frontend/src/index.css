@@ -1,0 +1,129 @@
+/* Vision AI: Tailwind v4 + design tokens.
+   Direction (unslop): careful, plain-spoken, a little warm. World: the pharmacy counter and the back of a
+   food pack, black ink on paper. Quiet neutral chrome with one ink-blue accent; rich colour only in the
+   Nutri-Score strip and the attention heatmap. Signature: mono source tags ("from label").
+   Light by default; dark when html[data-theme="dark"] (theme toggle). */
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+:root {
+  --page: #f5f7fa;
+  --card: #ffffff;
+  --raised: #eceff4;
+  --hairline: rgb(17 24 39 / 0.09);
+  --control: #7b8495;          /* input / button borders: ≥3:1 on card */
+  --ink: #111827;
+  --ink-2: #4b5565;
+  --ink-3: #5f687a;            /* muted: meta and captions only */
+  --accent: #1e4f91;           /* ink blue */
+  --accent-hover: #173f75;
+  --on-accent: #ffffff;
+  --accent-soft: #e7eef8;
+  --focus: #1e4f91;
+  --danger: #b42318;  --danger-soft: #fdecea;  --danger-line: #f1b5b0;
+  --warning: #8a5300; --warning-soft: #fff4dc; --warning-line: #ebc77a;
+  --success: #17703a; --success-soft: #e8f5ec; --success-line: #a8d6b8;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.05);
+  --shadow-float: 0 8px 24px rgb(0 0 0 / 0.08);
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --page: #0b0d14;
+  --card: #11141c;
+  --raised: #1a1e28;
+  --hairline: rgb(238 240 245 / 0.09);
+  --control: #6c7487;
+  --ink: #eef0f5;
+  --ink-2: #a3a9b8;
+  --ink-3: #8a91a3;
+  --accent: #8db3ec;
+  --accent-hover: #a9c6f2;
+  --on-accent: #0b1626;
+  --accent-soft: #18243a;
+  --focus: #8db3ec;
+  --danger: #f2a39c;  --danger-soft: #34171a;  --danger-line: #6d2c2b;
+  --warning: #eec46f; --warning-soft: #2e2410; --warning-line: #6b5219;
+  --success: #8fd1a7; --success-soft: #122a1d; --success-line: #2c5c40;
+  --shadow-sm: none;
+  --shadow-float: 0 8px 24px rgb(0 0 0 / 0.4);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-card: var(--card);
+  --color-raised: var(--raised);
+  --color-hairline: var(--hairline);
+  --color-control: var(--control);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-danger-line: var(--danger-line);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-warning-line: var(--warning-line);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-success-line: var(--success-line);
+  --shadow-card: var(--shadow-sm);
+  --shadow-float: var(--shadow-float);
+}
+
+@theme {
+  /* Nutri-Score: official colours (Santé publique France), identical in both themes */
+  --color-ns-a: #038141;
+  --color-ns-b: #85bb2f;
+  --color-ns-c: #fecb02;
+  --color-ns-d: #ee8100;
+  --color-ns-e: #e63e11;
+
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --text-xs: 0.8125rem;   --text-xs--line-height: 1.25rem;   /* 13 */
+  --text-sm: 0.875rem;    --text-sm--line-height: 1.375rem;  /* 14 */
+  --text-base: 1rem;      --text-base--line-height: 1.6rem;  /* 16 */
+  --text-lg: 1.125rem;    --text-lg--line-height: 1.6rem;    /* 18 */
+  --text-xl: 1.375rem;    --text-xl--line-height: 1.8rem;    /* 22 */
+  --text-2xl: 1.75rem;    --text-2xl--line-height: 2.2rem;   /* 28: the answer */
+  --text-3xl: 2.5rem;     --text-3xl--line-height: 1.12;     /* 40: landing headline */
+
+  --radius-tag: 6px;
+  --radius-control: 8px;
+  --radius-card: 14px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-page text-ink font-sans text-base antialiased;
+    font-variant-numeric: tabular-nums;
+  }
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+  summary {
+    list-style: none;
+    cursor: pointer;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  details[open] > summary .chev {
+    transform: rotate(180deg);
+  }
+  ::selection {
+    background: var(--accent-soft);
+  }
+}
